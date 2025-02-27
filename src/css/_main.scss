@@ -15,7 +15,7 @@
 .button {
 
   &.categories {
-    @apply h-[38px] min-h-[38px] min-w-fit bg-LightGrey border-LightGrey text-body px-4 text-blue100 hover:border-blue100 hover:text-blue100 disabled:border-DarkBlue100 disabled:text-DarkBlue100
+    @apply h-[38px] min-h-[38px] min-w-fit bg-LightGrey border-LightGrey text-body px-4 text-Blue hover:border-Blue hover:text-Blue disabled:border-Blue disabled:text-BodyText
   }
 
   &.btn-small {
@@ -39,11 +39,11 @@
   }
 
   &.btn-icons {
-    @apply bg-LightGrey text-blue100 hover:bg-blue100 hover:text-white
+    @apply bg-LightGrey text-Blue hover:bg-Blue hover:text-white
   }
 
   &.btn-icons-blue {
-    @apply bg-blue100 text-white hover:bg-white hover:text-blue100
+    @apply bg-Blue text-white hover:bg-white hover:text-Blue
   }
 
   &.width-auto {
@@ -54,7 +54,7 @@
     @apply max-w-[475px] w-full
   }
 
-  @apply h-14 min-h-14 px-8 min-w-[129px] w-fit flex items-center justify-center rounded-4xl text-white text-base text-center font-semibold bg-blue100 border border-blue100 transition-all hover:bg-transparent hover:text-blue100;
+  @apply h-14 min-h-14 px-8 min-w-[129px] w-fit flex items-center justify-center rounded-4xl text-white text-base text-center font-semibold bg-Blue border border-Blue transition-all hover:bg-transparent hover:text-Blue;
 }
 
 // Button with arrow Style End
@@ -119,15 +119,15 @@
 .text-content {
 
   p {
-    @apply text-base md:text-body -tracking-018 text-DarkBlue50 font-medium
+    @apply text-base md:text-body -tracking-018 text-BodyText font-medium
   }
 
   ol {
-    @apply list-decimal text-base -tracking-018 text-DarkBlue50 font-medium pl-6
+    @apply list-decimal text-base -tracking-018 text-BodyText font-medium pl-6
   }
 
   ul {
-    @apply list-disc text-base -tracking-018 text-DarkBlue50 font-medium pl-6
+    @apply list-disc text-base -tracking-018 text-BodyText font-medium pl-6
   }
 
   h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -137,7 +137,7 @@
 
 .text-content--tou {
   h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    @apply text-DarkBlue100 font-semibold
+    @apply text-BodyText font-semibold
   }
 }
 // Text Content End
@@ -146,10 +146,10 @@
 .active-tag {
 
   span {
-    @apply text-blue100 font-semibold
+    @apply text-Blue font-semibold
   }
 
-  @apply border-blue100
+  @apply border-Blue
 }
 //
 
@@ -178,7 +178,7 @@
   }
 
   label {
-    @apply w-10 min-w-10 h-10 flex items-center justify-center border border-DarkBlue100 rounded-full overflow-hidden bg-white cursor-pointer
+    @apply w-10 min-w-10 h-10 flex items-center justify-center border border-Blue rounded-full overflow-hidden bg-white cursor-pointer
   }
 
   .swiper-slide {
@@ -214,24 +214,24 @@
     @apply bg-transparent
   }
 
-  @apply w-12 h-12 min-w-12 flex items-center justify-center rounded-full overflow-hidden border border-Grey text-none bg-blue100 disabled:bg-transparent hover:cursor-pointer
+  @apply w-12 h-12 min-w-12 flex items-center justify-center rounded-full overflow-hidden border text-none bg-Blue disabled:bg-transparent hover:cursor-pointer
 }
 
 // Pagination End
 
 .inactive-tag {
   span {
-    @apply text-DarkBlue50 font-medium
+    @apply text-BodyText font-medium
   }
 
-  @apply border-DarkBlue100
+  @apply border-Blue
 }
 
 // swiper Start
 
 .swiper-custom {
   .swiper-pagination-bullet {
-    @apply w-6 h-6 lg:w-[18px] lg:h-[18px] opacity-100 bg-DarkBlue100
+    @apply w-6 h-6 lg:w-[18px] lg:h-[18px] opacity-100 bg-Blue
   }
 
   .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next,
@@ -242,7 +242,7 @@
   }
 
   .swiper-pagination-bullet-active {
-    @apply bg-blue100
+    @apply bg-Blue
   }
 
   .swiper-button-prev:after, .swiper-button-next:after {
@@ -272,9 +272,9 @@
     }
 
     &.swiper-button-disabled {
-      @apply opacity-100 border border-Grey bg-transparent
+      @apply opacity-100 border bg-transparent
     }
-    @apply w-12 h-12 rounded-full flex justify-center items-center overflow-hidden bg-blue100
+    @apply w-12 h-12 rounded-full flex justify-center items-center overflow-hidden bg-Blue
   }
 
   .swiper-button-arrow.swiper-button-disabled {
@@ -311,7 +311,7 @@
 .gallery-swiper-big {
 
   .swiper-slide {
-    @apply rounded-6xl overflow-hidden border border-DarkBlue100 flex justify-center items-center
+    @apply rounded-6xl overflow-hidden border border-Blue flex justify-center items-center
   }
 
   img {
@@ -321,7 +321,7 @@
 
 .gallery-swiper {
   .swiper-slide {
-    @apply rounded-2xl overflow-hidden border border-DarkBlue100 flex justify-center items-center cursor-pointer
+    @apply rounded-2xl overflow-hidden border border-Blue flex justify-center items-center cursor-pointer
   }
 
   img {
