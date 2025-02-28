@@ -2787,8 +2787,178 @@ p{
   text-decoration-line: underline;
 }
 
-.Fast-icon {
-  background: url("../img/icons/Fast-icon.svg");
+.Referral-Program {
+  background: url("../img/icons/Referral-Program.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Secure {
+  background: url("../img/icons/Secure.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Effortless-Signing {
+  background: url("../img/icons/Effortless-Signing.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.User-Friendly {
+  background: url("../img/icons/User-Friendly.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Track-Manage {
+  background: url("../img/icons/Track-Manage.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Online-Support {
+  background: url("../img/icons/Online-Support.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Special-Discount {
+  background: url("../img/icons/Special-Discount.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Exclusive-Deals {
+  background: url("../img/icons/Exclusive-Deals.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Personal-Offers {
+  background: url("../img/icons/Personal-Offers.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Partner-Perks {
+  background: url("../img/icons/Partner-Perks.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Support {
+  background: url("../img/icons/Support.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Partnership {
+  background: url("../img/icons/Partnership.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.customer-notifications {
+  background: url("../img/icons/customer-notifications.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.financial-statements {
+  background: url("../img/icons/financial-statements.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.compliance-letters {
+  background: url("../img/icons/compliance-letters.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.personalized-correspondence {
+  background: url("../img/icons/personalized-correspondence.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.business-communications {
+  background: url("../img/icons/business-communications.svg");
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Sign-Up {
+  background: url("../img/icons/Sign-Up.svg");
   display: block;
   height: 40px;
   width: 40px;
@@ -2797,11 +2967,31 @@ p{
   background-repeat: no-repeat;
 }
 
-.Star-icon {
-  background: url("../img/icons/Star.svg");
+.Offers {
+  background: url("../img/icons/Offers.svg");
   display: block;
-  height: 18px;
-  width: 18px;
+  height: 40px;
+  width: 40px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Saving-Documents {
+  background: url("../img/icons/Saving-Documents.svg");
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Join {
+  background: url("../img/icons/Join.svg");
+  display: block;
+  height: 40px;
+  width: 40px;
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
