@@ -2169,6 +2169,9 @@ html {
 .col-span-5{
   grid-column: span 5 / span 5;
 }
+.col-span-7{
+  grid-column: span 7 / span 7;
+}
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -2516,6 +2519,10 @@ html {
 }
 .fill-white{
   fill: #fff;
+}
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .p-1{
   padding: 0.25rem;
