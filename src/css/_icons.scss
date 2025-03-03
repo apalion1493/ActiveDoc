@@ -153,6 +153,21 @@
   @apply block h-[20px] w-[20px] bg-100-auto bg-center bg-no-repeat;
 }
 
+.Location-yellow {
+  background: url("../img/icons/Location-yellow.svg");
+  @apply block h-[20px] w-[20px] bg-100-auto bg-center bg-no-repeat;
+}
+
+.Phone-yellow {
+  background: url("../img/icons/Phone-yellow.svg");
+  @apply block h-[20px] w-[20px] bg-100-auto bg-center bg-no-repeat;
+}
+
+.Message-yellow {
+  background: url("../img/icons/Message-yellow.svg");
+  @apply block h-[20px] w-[20px] bg-100-auto bg-center bg-no-repeat;
+}
+
 .Logo-white {
   background: url("../img/icons/Logo-white.png");
   @apply block h-[42px] w-[190px] bg-100-auto bg-center bg-no-repeat;

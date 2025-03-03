@@ -2160,20 +2160,23 @@ html {
 .col-span-12{
   grid-column: span 12 / span 12;
 }
-.col-span-5{
-  grid-column: span 5 / span 5;
-}
 .col-span-2{
   grid-column: span 2 / span 2;
 }
 .col-span-3{
   grid-column: span 3 / span 3;
 }
+.col-span-5{
+  grid-column: span 5 / span 5;
+}
 .mb-2{
   margin-bottom: 0.5rem;
 }
 .mb-3{
   margin-bottom: 0.75rem;
+}
+.mb-4{
+  margin-bottom: 1rem;
 }
 .mb-5{
   margin-bottom: 1.25rem;
@@ -2193,11 +2196,17 @@ html {
 .mt-1{
   margin-top: 0.25rem;
 }
+.mt-12{
+  margin-top: 3rem;
+}
 .mt-2{
   margin-top: 0.5rem;
 }
 .mt-3{
   margin-top: 0.75rem;
+}
+.mt-6{
+  margin-top: 1.5rem;
 }
 .mt-8{
   margin-top: 2rem;
@@ -2210,15 +2219,6 @@ html {
 }
 .mt-auto{
   margin-top: auto;
-}
-.mt-6{
-  margin-top: 1.5rem;
-}
-.mb-4{
-  margin-bottom: 1rem;
-}
-.mt-12{
-  margin-top: 3rem;
 }
 .block{
   display: block;
@@ -2261,11 +2261,11 @@ html {
 .h-\[161px\]{
   height: 161px;
 }
-.h-\[48px\]{
-  height: 48px;
-}
 .h-\[42px\]{
   height: 42px;
+}
+.h-\[48px\]{
+  height: 48px;
 }
 .max-h-44{
   max-height: 11rem;
@@ -2288,6 +2288,9 @@ html {
 .w-6{
   width: 1.5rem;
 }
+.w-\[190px\]{
+  width: 190px;
+}
 .w-\[60px\]{
   width: 60px;
 }
@@ -2297,9 +2300,6 @@ html {
 }
 .w-full{
   width: 100%;
-}
-.w-\[190px\]{
-  width: 190px;
 }
 .min-w-14{
   min-width: 3.5rem;
@@ -2402,6 +2402,9 @@ html {
 .gap-y-3{
   row-gap: 0.75rem;
 }
+.gap-y-4{
+  row-gap: 1rem;
+}
 .gap-y-5{
   row-gap: 1.25rem;
 }
@@ -2455,9 +2458,6 @@ html {
 .border-b-4{
   border-bottom-width: 4px;
 }
-.border-b{
-  border-bottom-width: 1px;
-}
 .border-t{
   border-top-width: 1px;
 }
@@ -2476,6 +2476,9 @@ html {
   --tw-border-opacity: 1;
   border-color: rgb(234 241 246 / var(--tw-border-opacity, 1));
 }
+.border-White20{
+  border-color: #FFFFFF33;
+}
 .border-Yellow{
   --tw-border-opacity: 1;
   border-color: rgb(252 175 23 / var(--tw-border-opacity, 1));
@@ -2487,9 +2490,6 @@ html {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-.border-White20{
-  border-color: #FFFFFF33;
 }
 .bg-Blue{
   --tw-bg-opacity: 1;
@@ -2639,6 +2639,10 @@ html {
   --tw-text-opacity: 1;
   color: rgb(0 87 149 / var(--tw-text-opacity, 1));
 }
+.text-BlueStroke{
+  --tw-text-opacity: 1;
+  color: rgb(213 225 234 / var(--tw-text-opacity, 1));
+}
 .text-BodyText{
   --tw-text-opacity: 1;
   color: rgb(80 91 113 / var(--tw-text-opacity, 1));
@@ -2647,6 +2651,9 @@ html {
   --tw-text-opacity: 1;
   color: rgb(5 25 68 / var(--tw-text-opacity, 1));
 }
+.text-White50{
+  color: #FFFFFF80;
+}
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
@@ -2654,9 +2661,6 @@ html {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-.text-White50{
-  color: #FFFFFF80;
 }
 .shadow{
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -2693,6 +2697,11 @@ html {
 }
 .transition-all{
   transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-colors{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -3282,6 +3291,36 @@ p{
 
 .Time-yellow {
   background: url("../img/icons/Time-yellow.svg");
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Location-yellow {
+  background: url("../img/icons/Location-yellow.svg");
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Phone-yellow {
+  background: url("../img/icons/Phone-yellow.svg");
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Message-yellow {
+  background: url("../img/icons/Message-yellow.svg");
   display: block;
   height: 20px;
   width: 20px;
@@ -3897,14 +3936,14 @@ p{
   background-color: transparent;
 }
 
-.hover\:text-gray-700:hover{
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
-}
-
 .hover\:text-Yellow:hover{
   --tw-text-opacity: 1;
   color: rgb(252 175 23 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-gray-700:hover{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 
 .hover\:underline:hover{
