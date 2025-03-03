@@ -2199,6 +2199,9 @@ html {
 .mt-auto{
   margin-top: auto;
 }
+.mb-6{
+  margin-bottom: 1.5rem;
+}
 .block{
   display: block;
 }
@@ -2240,6 +2243,12 @@ html {
 .h-\[48px\]{
   height: 48px;
 }
+.h-\[28px\]{
+  height: 28px;
+}
+.h-0{
+  height: 0px;
+}
 .max-h-44{
   max-height: 11rem;
 }
@@ -2248,6 +2257,9 @@ html {
 }
 .min-h-screen{
   min-height: 100vh;
+}
+.min-h-\[60px\]{
+  min-height: 60px;
 }
 .w-14{
   width: 3.5rem;
@@ -3893,6 +3905,14 @@ p{
 
 .disabled\:opacity-50:disabled{
   opacity: 0.5;
+}
+
+.group:hover .group-hover\:h-0{
+  height: 0px;
+}
+
+.group:hover .group-hover\:h-\[28px\]{
+  height: 28px;
 }
 
 .group:hover .group-hover\:fill-Blue{
