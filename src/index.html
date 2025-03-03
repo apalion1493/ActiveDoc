@@ -7,19 +7,33 @@
 
 <body class="">
 <main id="content" class="flex flex-col items-center min-h-screen overflow-hidden">
-    @@include('components/Header.html', {
-    'commonStyle': ' ',
-    })
+  @@include('components/Header.html', {
+  'commonStyle': ' ',
+  })
 
 
-    <section>
-        <div class="container">
-            <div class="row">
-
-            </div>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-span-12">
+          <br>
+          <br>
+          <br>
+          @@include('components/Info-card.html', {
+          'Style': 'max-w-[505px]',
+          })
+          <br>
+          <br>
+          <br>
+          <br>
+          @@include('components/Steps-card.html', {
+          'Style': 'max-w-[330px]',
+          })
         </div>
-    </section>
-    @@include('components/Footer.html')
+      </div>
+    </div>
+  </section>
+  @@include('components/Footer.html')
 </main>
 
 @@include('components/script.html')
