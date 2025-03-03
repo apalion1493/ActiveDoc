@@ -2271,6 +2271,9 @@ html {
 .min-w-14{
   min-width: 3.5rem;
 }
+.min-w-\[60px\]{
+  min-width: 60px;
+}
 .max-w-\[672px\]{
   max-width: 672px;
 }
@@ -2285,6 +2288,9 @@ html {
 }
 .max-w-\[505px\]{
   max-width: 505px;
+}
+.max-w-\[295px\]{
+  max-width: 295px;
 }
 .flex-shrink-0{
   flex-shrink: 0;
@@ -2342,6 +2348,10 @@ html {
 }
 .gap-y-3{
   row-gap: 0.75rem;
+}
+.gap-x-5{
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 .self-end{
   align-self: flex-end;
@@ -2477,6 +2487,14 @@ html {
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .pb-10{
   padding-bottom: 2.5rem;
