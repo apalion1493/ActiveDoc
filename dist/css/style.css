@@ -2265,6 +2265,9 @@ html {
 .w-full{
   width: 100%;
 }
+.w-\[60px\]{
+  width: 60px;
+}
 .min-w-14{
   min-width: 3.5rem;
 }
@@ -2294,6 +2297,9 @@ html {
 }
 .max-w-\[358px\]{
   max-width: 358px;
+}
+.max-w-\[400px\]{
+  max-width: 400px;
 }
 .flex-shrink-0{
   flex-shrink: 0;
@@ -2417,6 +2423,9 @@ html {
 .border-2{
   border-width: 2px;
 }
+.border-b-4{
+  border-bottom-width: 4px;
+}
 .border-none{
   border-style: none;
 }
@@ -2439,6 +2448,10 @@ html {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+.border-Yellow{
+  --tw-border-opacity: 1;
+  border-color: rgb(252 175 23 / var(--tw-border-opacity, 1));
 }
 .bg-Blue{
   --tw-bg-opacity: 1;
