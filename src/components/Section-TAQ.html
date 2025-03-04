@@ -7,8 +7,83 @@
         </div>
       </div>
       <div class="col-span-7">
-        <div class="flex flex-col">
-
+        <div class="flex flex-col pl-[36px]">
+          @@include('Title-block.html', {
+          'Style1': '',
+          'Title1': 'Tell us ',
+          'Style2': '',
+          'Title2': 'Any Questions!',
+          })
+          <p class="mt-5">We provide best service for our customer check the list now.</p>
+          <form class="row gap-4 mt-6">
+            <div class="col-span-6">
+              @@include('input.html', {
+              'common-style': '',
+              'StyleLabel': 'text-none hidden',
+              'idInput': 'nameId',
+              'label': 'Full name',
+              'styleInput': '',
+              'type': 'text',
+              'placeholder': 'Full name',
+              'errorStyle': 'hidden',
+              })
+            </div>
+            <div class="col-span-6">
+              @@include('input.html', {
+              'common-style': '',
+              'StyleLabel': 'text-none hidden',
+              'idInput': 'phoneId',
+              'label': 'Phone Number',
+              'styleInput': '',
+              'type': 'text',
+              'placeholder': 'Phone Number',
+              'errorStyle': 'hidden',
+              })
+            </div>
+            <div class="col-span-6">
+              @@include('input.html', {
+              'common-style': '',
+              'StyleLabel': 'text-none hidden',
+              'idInput': 'EmailId',
+              'label': 'Email',
+              'styleInput': '',
+              'type': 'email',
+              'placeholder': 'Email',
+              'errorStyle': 'hidden',
+              })
+            </div>
+            <div class="col-span-6">
+              @@include('input.html', {
+              'common-style': '',
+              'StyleLabel': 'text-none hidden',
+              'idInput': 'SubjectId',
+              'label': 'Subject',
+              'styleInput': '',
+              'type': 'text',
+              'placeholder': 'Subject',
+              'errorStyle': 'hidden',
+              })
+            </div>
+            <div class="col-span-12">
+              @@include('textarea.html', {
+              'commonStyle': '',
+              'idTextarea': 'MessageId',
+              'label': 'Message',
+              'StyleLabel': 'hidden',
+              'styleTextarea': '',
+              'placeholder': 'Message',
+              'rows': '3',
+              })
+            </div>
+            <div class="col-span-12">
+              @@include('button.html', {
+              'style': 'mt-2',
+              'type': 'submit',
+              'ariaLabel': 'button',
+              'title': 'Submit Now',
+              })
+            </div>
+          </form>
         </div>
       </div>
     </div>

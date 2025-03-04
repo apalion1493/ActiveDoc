@@ -13,7 +13,7 @@
 
 @layer components {
   .container {
-    @apply px-4 w-full minsm:max-w-[672px] minmd:max-w-[800px] minlg:max-w-[1056px] minxl:max-w-[1344px] min2xl:max-w-[1549px];
+    @apply px-4 w-full minsm:max-w-[672px] minmd:max-w-[800px] minlg:max-w-[1056px] minxl:max-w-[1272px] min2xl:max-w-[1549px];
   }
 
   .container-full {
@@ -52,28 +52,20 @@ section {
 }
 
 .input::placeholder {
-	@apply text-BodyText md:text-body2
+	@apply text-BodyText text-body2 font-normal
 }
 
 .input {
-	&.active {
-		@apply border-Blue
-	}
+	//&.active {
+	//	@apply border-Blue
+	//}
+    //
+    //&.input-icon {
+    //  @apply pl-[44px]
+    //}
 
-    &.input-icon {
-      @apply pl-[44px]
-    }
-
-  &--radio {
-    label {
-      @apply ml-2
-    }
-
-    @apply text-BodyText
-  }
-
-  @apply px-4 py-[10px] bg-white flex items-center rounded-2xl text-body font-medium h-14 md:h-[50px] md:text-body2
-  w-full text-BodyText border border-Blue transition-all focus:shadow-v1
+  @apply p-3 bg-LightGrey flex items-center rounded-lg text-body h-[46px]
+  w-full text-BodyText border border-BlueStroke transition-all focus:shadow-v1
   focus:ring-0 outline-0 focus:outline-0 focus:outline-inherit focus:border-Blue
 }
 
@@ -94,7 +86,7 @@ section {
 }
 
 textarea.input {
-  @apply h-[161px] px-4 py-6
+  @apply h-[100px] p-3
 }
 
 select.select {
