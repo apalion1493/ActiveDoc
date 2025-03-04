@@ -2058,14 +2058,9 @@ html {
     max-width: 1024px;
   }
 }
-@media (min-width: 1345px){
+@media (min-width: 1272px){
   .container{
-    max-width: 1345px;
-  }
-}
-@media (min-width: 1550px){
-  .container{
-    max-width: 1550px;
+    max-width: 1272px;
   }
 }
 .container {
@@ -2088,14 +2083,9 @@ html {
     max-width: 1056px;
   }
 }
-@media (min-width: 1345px){
+@media (min-width: 1272px){
   .container{
     max-width: 1272px;
-  }
-}
-@media (min-width: 1550px){
-  .container{
-    max-width: 1549px;
   }
 }
 .w-full {
@@ -2175,6 +2165,10 @@ html {
 .col-span-7{
   grid-column: span 7 / span 7;
 }
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -2198,6 +2192,9 @@ html {
 }
 .ml-\[68px\]{
   margin-left: 68px;
+}
+.mr-2{
+  margin-right: 0.5rem;
 }
 .mr-\[10px\]{
   margin-right: 10px;
@@ -2231,6 +2228,9 @@ html {
 }
 .mt-auto{
   margin-top: auto;
+}
+.mr-1{
+  margin-right: 0.25rem;
 }
 .block{
   display: block;
@@ -2278,6 +2278,9 @@ html {
 }
 .h-\[48px\]{
   height: 48px;
+}
+.h-\[309px\]{
+  height: 309px;
 }
 .max-h-44{
   max-height: 11rem;
@@ -2328,6 +2331,9 @@ html {
 .max-w-\[295px\]{
   max-width: 295px;
 }
+.max-w-\[323px\]{
+  max-width: 323px;
+}
 .max-w-\[330px\]{
   max-width: 330px;
 }
@@ -2336,6 +2342,9 @@ html {
 }
 .max-w-\[400px\]{
   max-width: 400px;
+}
+.max-w-\[469px\]{
+  max-width: 469px;
 }
 .max-w-\[505px\]{
   max-width: 505px;
@@ -2382,6 +2391,12 @@ html {
 }
 .items-center{
   align-items: center;
+}
+.items-baseline{
+  align-items: baseline;
+}
+.justify-end{
+  justify-content: flex-end;
 }
 .justify-center{
   justify-content: center;
@@ -2436,8 +2451,15 @@ html {
 .gap-y-8{
   row-gap: 2rem;
 }
+.gap-x-1{
+  -moz-column-gap: 0.25rem;
+       column-gap: 0.25rem;
+}
 .self-end{
   align-self: flex-end;
+}
+.self-center{
+  align-self: center;
 }
 .overflow-hidden{
   overflow: hidden;
@@ -3351,6 +3373,16 @@ p{
   display: block;
   height: 42px;
   width: 190px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.City {
+  background: url("../img/icons/city.svg");
+  display: block;
+  height: 20px;
+  width: 20px;
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;

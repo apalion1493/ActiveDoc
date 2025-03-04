@@ -50,8 +50,7 @@ module.exports = {
             body4: ['12px', '120%'],
         },
         screens: {
-            '2xl': {max: '1549px'},
-            xl: {max: '1344px'},
+            xl: {max: '1271px'},
             lg: {max: '1023px'},
             md: {max: '767px'},
             sm: {max: '639px'},
@@ -61,8 +60,7 @@ module.exports = {
             minsm: {min: '640px'},
             minmd: {min: '768px'},
             minlg: {min: '1024px'},
-            minxl: {min: '1345px'},
-            min2xl: {min: '1550px'},
+            minxl: {min: '1272px'},
         },
         container: {
             center: true,

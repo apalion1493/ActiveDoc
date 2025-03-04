@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('components/head.html', {
+'title': 'Contact Us'
+})
+
+<body class="">
+<main id="content" class="flex flex-col items-center min-h-screen overflow-hidden">
+  @@include('components/Header.html', {
+  'commonStyle': ' ',
+  })
+
+  <section class="section bg-Stroke">
+    <div class="container">
+      <div class="row gap-x-5">
+        <div class="col-span-5">
+          @@include('components/Title-block.html', {
+          'Style1': '',
+          'Title1': 'We’re Here to ',
+          'Style2': '',
+          'Title2': 'Help!',
+          })
+          <div class="max-w-[469px]">
+            <span class="mt-5 mb-3 block text-Top2 text-TitleText font-medium tracking-[-1.44px]">Get in touch with ActiveDoc</span>
+            <p class="text-base">Got questions? Need assistance? Whether you’re looking for support, business inquiries, or partnership
+              opportunities, our team is ready to assist you.</p>
+          </div>
+        </div>
+        <div class="col-span-7">
+          <div class="flex gap-x-5 justify-end">
+            <div
+              class="relative p-6 rounded-2xl flex flex-col gap-y-5 border border-BlueStroke overflow-hidden shadow-v2 bg-white transition-all hover:border-Blue w-full max-w-[323px]">
+              <div class="flex items-center">
+                <i class="Support"></i>
+              </div>
+              <div class="flex flex-col">
+                <span class="text-Top3 font-semibold text-TitleText block mb-3">Customer Support</span>
+                <ul class="flex flex-col gap-y-2">
+                  <li class="flex items-start gap-x-2">
+                    <i class="Message min-w-5"></i>
+                    <a class="text-body text-TitleText hover:underline" href="mailto:support@activedoc.com">support@activedoc.com</a>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <i class="Phone min-w-5"></i>
+                    <a class="text-body text-TitleText hover:underline" href="tel:+18001234567">+1 (800) 123-4567</a>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <i class="Time-yellow min-w-5"></i>
+                    <p class="text-body text-TitleText">Mon–Fri : 9am–6pm (EST)</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="relative p-6 rounded-2xl flex flex-col gap-y-5 border border-BlueStroke overflow-hidden shadow-v2 bg-white transition-all hover:border-Blue w-full max-w-[323px]">
+              <div class="flex items-center">
+                <i class="Partnership"></i>
+              </div>
+              <div class="flex flex-col">
+                <span class="text-Top3 font-semibold text-TitleText block mb-3">Business & Partnerships</span>
+                <ul class="flex flex-col gap-y-2">
+                  <li class="flex items-start gap-x-2">
+                    <i class="Message min-w-5"></i>
+                    <a class="text-body text-TitleText hover:underline" href="mailto:partnerships@activedoc.com">partnerships@activedoc.com</a>
+                  </li>
+                  <li class="flex items-start gap-x-2">
+                    <i class="Location min-w-5"></i>
+                    <p class="text-body text-TitleText">23 Street, Suite123 Florida, USA <br>23 Street, Suite123 Florida, USA</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-span-12">
+          @@include('components/Title-block.html', {
+          'Style1': 'text-center',
+          'Title1': 'Our Office ',
+          'Style2': '',
+          'Title2': 'Location',
+          'StyleLine': 'mx-auto',
+          })
+          <div class="flex items-baseline justify-center mt-5 gap-x-1">
+            <i class="mr-1 City self-center"></i>
+            <p class="text-Top3 font-semibold text-TitleText">ActiveDoc LLC -</p>
+            <p class="text-body text-TitleText">123 Street, Suite123 Florida, USA</p>
+          </div>
+
+          <img class="h-[309px] mt-8 w-full object-cover rounded-2xl border border-BlueStroke overflow-hidden" src="img/Map.jpg" alt="Map">
+        </div>
+      </div>
+    </div>
+  </section>
+  @@include('components/Section-TAQ.html')
+</main>
+
+@@include('components/script.html')
+</body>
+
+</html>
