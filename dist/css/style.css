@@ -2232,6 +2232,12 @@ html {
 .mt-auto{
   margin-top: auto;
 }
+.mr-3{
+  margin-right: 0.75rem;
+}
+.mr-\[10px\]{
+  margin-right: 10px;
+}
 .block{
   display: block;
 }
@@ -3882,6 +3888,11 @@ p{
 
 .group:hover .group-hover\:rotate-\[45deg\]{
   --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:rotate-\[40deg\]{
+  --tw-rotate: 40deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
