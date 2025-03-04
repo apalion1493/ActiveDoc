@@ -1,3 +1,29 @@
-<header class="w-full relative">
-
+<header class="w-full py-6 bg-white shadow-v3 relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-span-12">
+        <div class="flex items-center w-full justify-between">
+          <a href="index.html">
+            <img class="w-[190px]" src="img/icons/Main-logo.png" alt="ActiveDoc Logo">
+          </a>
+          <ul class="flex items-center gap-x-10">
+            <li class="flex items-center justify-center">
+              <a class="text-body2 text-TitleText transition-all hover:text-Yellow font-semibold" href="index.html">Home</a>
+            </li>
+            <li class="flex items-center justify-center">
+              <a class="text-body2 text-TitleText transition-all hover:text-Yellow" href="index.html">About Us</a>
+            </li>
+            <li class="flex items-center justify-center">
+              <a class="text-body2 text-TitleText transition-all hover:text-Yellow" href="index.html">Contacts</a>
+            </li>
+          </ul>
+          @@include('Link.html', {
+          'style': '',
+          'url': 'index.html',
+          'title': 'Log In',
+          })
+        </div>
+      </div>
+    </div>
+  </div>
 </header>

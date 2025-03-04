@@ -80,6 +80,7 @@ module.exports = {
             boxShadow: {
                 'v1': '0px 0px 16px 0px rgba(37, 51, 126, 0.05)',
                 'v2': '0px 0px 15px 0px rgba(5, 25, 68, 0.05)',
+                'v3': '0px 2px 8px 0px rgba(5, 25, 68, 0.08)',
             },
             borderRadius: {
                 '4xl': '32px',

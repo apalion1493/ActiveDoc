@@ -2232,12 +2232,6 @@ html {
 .mt-auto{
   margin-top: auto;
 }
-.mr-3{
-  margin-right: 0.75rem;
-}
-.mr-\[10px\]{
-  margin-right: 10px;
-}
 .block{
   display: block;
 }
@@ -2428,6 +2422,10 @@ html {
 }
 .gap-y-5{
   row-gap: 1.25rem;
+}
+.gap-x-10{
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
 }
 .self-end{
   align-self: flex-end;
@@ -2710,6 +2708,11 @@ html {
 .shadow-v2{
   --tw-shadow: 0px 0px 15px 0px rgba(5, 25, 68, 0.05);
   --tw-shadow-colored: 0px 0px 15px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-v3{
+  --tw-shadow: 0px 2px 8px 0px rgba(5, 25, 68, 0.08);
+  --tw-shadow-colored: 0px 2px 8px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .blur{
@@ -3888,11 +3891,6 @@ p{
 
 .group:hover .group-hover\:rotate-\[45deg\]{
   --tw-rotate: 45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:rotate-\[40deg\]{
-  --tw-rotate: 40deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
