@@ -2223,6 +2223,12 @@ html {
 .mt-auto{
   margin-top: auto;
 }
+.mr-3{
+  margin-right: 0.75rem;
+}
+.mr-\[10px\]{
+  margin-right: 10px;
+}
 .block{
   display: block;
 }
@@ -3348,23 +3354,20 @@ p{
 
 .button{
   display: flex;
-  height: 3.5rem;
-  min-height: 3.5rem;
+  height: 3rem;
+  min-height: 3rem;
   width: -moz-fit-content;
   width: fit-content;
-  min-width: 129px;
+  min-width: 179px;
   align-items: center;
   justify-content: center;
   border-radius: 32px;
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(0 87 149 / var(--tw-border-opacity, 1));
   --tw-bg-opacity: 1;
   background-color: rgb(0 87 149 / var(--tw-bg-opacity, 1));
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 130%;
   font-weight: 600;
   --tw-text-opacity: 1;
@@ -3375,124 +3378,15 @@ p{
 }
 
 .button:hover{
-  background-color: transparent;
-  --tw-text-opacity: 1;
-  color: rgb(0 87 149 / var(--tw-text-opacity, 1));
-}
-.button.categories{
-  height: 38px;
-  min-height: 38px;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
-  --tw-border-opacity: 1;
-  border-color: rgb(247 248 249 / var(--tw-border-opacity, 1));
   --tw-bg-opacity: 1;
-  background-color: rgb(247 248 249 / var(--tw-bg-opacity, 1));
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 16px;
-  line-height: 130%;
-  --tw-text-opacity: 1;
-  color: rgb(0 87 149 / var(--tw-text-opacity, 1));
-}
-.button.categories:hover{
-  --tw-border-opacity: 1;
-  border-color: rgb(0 87 149 / var(--tw-border-opacity, 1));
-  --tw-text-opacity: 1;
-  color: rgb(0 87 149 / var(--tw-text-opacity, 1));
-}
-.button.categories:disabled{
-  --tw-border-opacity: 1;
-  border-color: rgb(0 87 149 / var(--tw-border-opacity, 1));
-  --tw-text-opacity: 1;
-  color: rgb(80 91 113 / var(--tw-text-opacity, 1));
-}
-.button.btn-small{
-  height: 33px;
-  min-height: 33px;
-  min-width: 0;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  font-size: 14px;
-  line-height: 120%;
-}
-@media (max-width: 767px){
-  .button.btn-small{
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-}
-.button.btn-medium{
-  height: 2.5rem;
-  min-height: 2.5rem;
-  min-width: 98px;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  font-size: 16px;
-  line-height: 130%;
-}
-.button.hoverColor:hover{
-  --tw-border-opacity: 1;
-  border-color: rgb(247 248 249 / var(--tw-border-opacity, 1));
-  --tw-bg-opacity: 1;
-  background-color: rgb(247 248 249 / var(--tw-bg-opacity, 1));
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  background-color: rgb(5 25 68 / var(--tw-bg-opacity, 1));
 }
 .button.width-full {
     width: 100%;
   }
-.button.db-btn{
-  height: 3rem;
-  min-height: 3rem;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
-  border-radius: 0.75rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  font-size: 14px;
-  line-height: 120%;
-  font-weight: 600;
-}
-@media (max-width: 767px){
-  .button.db-btn{
-    height: 2.75rem;
-    min-height: 2.75rem;
-    font-size: 16px;
-    line-height: 130%;
-  }
-}
-.button.btn-icons{
-  --tw-bg-opacity: 1;
-  background-color: rgb(247 248 249 / var(--tw-bg-opacity, 1));
-  --tw-text-opacity: 1;
-  color: rgb(0 87 149 / var(--tw-text-opacity, 1));
-}
-.button.btn-icons:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 87 149 / var(--tw-bg-opacity, 1));
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-.button.btn-icons-blue{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 87 149 / var(--tw-bg-opacity, 1));
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-.button.btn-icons-blue:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-  --tw-text-opacity: 1;
-  color: rgb(0 87 149 / var(--tw-text-opacity, 1));
-}
 .button.width-auto{
   min-width: 0px;
 }
-.button.big-btn-1 {
-    width: 100%;
-    max-width: 475px;
-  }
 
 .bg-gradient-main {
   background: linear-gradient(0deg, rgba(5, 9, 62, 0.4) 0%, rgba(5, 9, 62, 0.4) 100%);
@@ -4002,6 +3896,16 @@ p{
 
 .group:hover .group-hover\:h-\[28px\]{
   height: 28px;
+}
+
+.group:hover .group-hover\:rotate-\[40deg\]{
+  --tw-rotate: 40deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:rotate-\[45deg\]{
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\:fill-Blue{
