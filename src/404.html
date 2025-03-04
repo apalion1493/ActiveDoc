@@ -2,12 +2,36 @@
 <html lang="en">
 
 @@include('components/head.html', {
-'title': '404'
+'title': 'Error 404'
 })
 
 <body class="">
 <main id="content" class="flex flex-col items-center min-h-screen overflow-hidden">
+  @@include('components/Header.html', {
+  'commonStyle': ' ',
+  })
 
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-span-12">
+          @@include('components/Title-block.html', {
+          'Style1': 'text-center',
+          'Title1': 'Error ',
+          'Style2': '',
+          'Title2': '404',
+          'StyleLine': 'text-center mx-auto',
+          })
+          <p class="text-center mt-5">Page not found. We can’t find the page you’re looking for.</p>
+        </div>
+        <div class="col-span-12 flex justify-center">
+          <img class="max-w-[684px] w-full object-cover mt-14" src="img/404-img.svg" alt="404">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  @@include('components/Footer.html')
 </main>
 
 @@include('components/script.html')
