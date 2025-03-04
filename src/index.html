@@ -10,9 +10,33 @@
   @@include('components/Header.html', {
   'commonStyle': ' ',
   })
+  <section class="section bg-Stroke">
+    <div class="container">
+      <div class="row">
+        <div class="col-span-6 flex items-center">
+          <div class="pr-[36px] max-w-[514px] relative">
+            <h1 class="text-h1 font-medium text-TitleText tracking-[-1.44px]">Sign, Send & Save Time - <span class="text-Blue font-normal">For Free!</span></h1>
+            <span class="border-b-4 border-Yellow w-14 rounded block mt-5"></span>
+            <div class="mt-5">
+              <p class="text-Top3">The Ultimate Online Platform for Fast, Secure, & Legally Binding eSignatures!</p>
+            </div>
+            @@include('components/Link.html', {
+            'style': 'mt-8',
+            'url': '#',
+            'title': 'Try for Free',
+            })
+          </div>
+        </div>
+        <div class="col-span-6">
+          <div class="h-[387px] border border-Stroke rounded-2xl overflow-hidden w-full">
+            <img class="w-full h-full object-cover" src="img/Hero-1.png" alt="Sign, Send & Save Time - For Free!">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-
-  <section>
+  <section class="hidden">
     <div class="container">
       <div class="row">
         <div class="col-span-12">
