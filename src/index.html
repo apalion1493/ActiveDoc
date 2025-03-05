@@ -260,7 +260,52 @@
   <section class="section bg-white">
     <div class="container">
       <div class="row">
-
+        <div class="col-span-12">
+          @@include('components/Title-block.html', {
+          'Style1': 'text-center',
+          'Title1': 'How it ',
+          'Title2': 'Works?',
+          'Style2': '',
+          'StyleLine': 'text-center mx-auto',
+          })
+          <div class="mt-5 max-w-[820px] mx-auto">
+            <p class="text-center">Steps of how it actually works.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row gap-5 mt-10">
+        <div class="col-span-3">
+          @@include('components/Why-us-Card.html', {
+          'Style': '',
+          'Icon': 'Sign-Up',
+          'Title': 'Sign Up for ActiveDoc',
+          'text': 'Signing Up for ActiveDoc it’s free and takes less than a minute.',
+          })
+        </div>
+        <div class="col-span-3">
+          @@include('components/Why-us-Card.html', {
+          'Style': '',
+          'Icon': 'Offers',
+          'Title': 'Explore Your Offers Portal',
+          'text': 'Receive personalized partner deals, no clutter, only what matters to you.',
+          })
+        </div>
+        <div class="col-span-3">
+          @@include('components/Why-us-Card.html', {
+          'Style': '',
+          'Icon': 'Saving-Documents',
+          'Title': 'Start Saving Documents',
+          'text': 'Unlock exclusive discounts & boost your business with partner services.',
+          })
+        </div>
+        <div class="col-span-3">
+          @@include('components/Why-us-Card.html', {
+          'Style': '',
+          'Icon': 'Join',
+          'Title': 'Join ActiveDoc',
+          'text': 'Join ActiveDoc today and start signing smarter —while saving time!',
+          })
+        </div>
       </div>
     </div>
   </section>
