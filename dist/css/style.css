@@ -2410,6 +2410,15 @@ html {
 .max-w-xs{
   max-width: 20rem;
 }
+.max-w-\[340px\]{
+  max-width: 340px;
+}
+.max-w-\[660px\]{
+  max-width: 660px;
+}
+.max-w-\[630px\]{
+  max-width: 630px;
+}
 .flex-shrink-0{
   flex-shrink: 0;
 }
