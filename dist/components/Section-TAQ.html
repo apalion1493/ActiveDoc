@@ -8,69 +8,82 @@
       </div>
       <div class="col-span-7 lg:col-span-12">
         <div class="flex flex-col pl-[36px] lg:pl-0">
-          <h3 class="text-Top6 lg:text-h4 font-medium text-TitleText tracking-[-1.44px] lg:text-Top5">Tell us  <span class="text-Blue font-normal ">Any Questions!</span></h3>
+         <div id="wrapperForm" class="flex flex-col">
+           <h3 class="text-Top6 lg:text-h4 font-medium text-TitleText tracking-[-1.44px] lg:text-Top5">Tell us  <span class="text-Blue font-normal ">Any Questions!</span></h3>
 <span class="border-b-4 border-Yellow w-14 rounded block mt-5 lg:mt-4 @@StyleLine"></span>
-          <p class="mt-5">We provide best service for our customer check the list now.</p>
-
-         <div class="lg:mt-6 lg:pt-5 lg:pb-6 lg:px-4 lg:border lg:border-BlueStroke lg:bg-white rounded-2xl">
-           <div class="flex items-center w-full max-h-[350px] sm:max-h-[250px] minlg:hidden justify-center rounded-2xl overflow-hidden">
-             <img class="w-full h-full object-cover" src="img/Questions-img.png" alt="Tell us Any Questions!">
-           </div>
-           <form class="row gap-4 mt-6 sm:gap-x-0">
-             <div class="col-span-6 sm:col-span-12">
-               <div class="form-group flex flex-col items-start ">
+           <p class="mt-5">We provide best service for our customer check the list now.</p>
+           <div class="lg:mt-6 lg:pt-5 lg:pb-6 lg:px-4 lg:border lg:border-BlueStroke lg:bg-white rounded-2xl">
+             <div class="flex items-center w-full max-h-[350px] sm:max-h-[250px] minlg:hidden justify-center rounded-2xl overflow-hidden">
+               <img class="w-full h-full object-cover" src="img/Questions-img.png" alt="Tell us Any Questions!">
+             </div>
+             <form id="contactForm" class="row gap-4 mt-6 sm:gap-x-0">
+               <div class="col-span-6 sm:col-span-12">
+                 <div class="form-group flex flex-col items-start ">
     <label class="mb-2 font-medium text-body2 text-TitleText text-none hidden" for="nameId">Full name</label>
     <input
         class="input  "
-        type="text" id="nameId" placeholder="Full name" name="@@name" required>
+        type="text" id="nameId" placeholder="Full name" name="name" required>
     <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
 </div>
-             </div>
-             <div class="col-span-6 sm:col-span-12">
-               <div class="form-group flex flex-col items-start ">
+               </div>
+               <div class="col-span-6 sm:col-span-12">
+                 <div class="form-group flex flex-col items-start ">
     <label class="mb-2 font-medium text-body2 text-TitleText text-none hidden" for="phoneId">Phone Number</label>
     <input
         class="input  "
-        type="text" id="phoneId" placeholder="Phone Number" name="@@name" required>
+        type="text" id="phoneId" placeholder="Phone Number" name="phone" required>
     <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
 </div>
-             </div>
-             <div class="col-span-6 sm:col-span-12">
-               <div class="form-group flex flex-col items-start ">
+               </div>
+               <div class="col-span-6 sm:col-span-12">
+                 <div class="form-group flex flex-col items-start ">
     <label class="mb-2 font-medium text-body2 text-TitleText text-none hidden" for="EmailId">Email</label>
     <input
         class="input  "
-        type="email" id="EmailId" placeholder="Email" name="@@name" required>
+        type="email" id="EmailId" placeholder="Email" name="email" required>
     <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
 </div>
-             </div>
-             <div class="col-span-6 sm:col-span-12">
-               <div class="form-group flex flex-col items-start ">
+               </div>
+               <div class="col-span-6 sm:col-span-12">
+                 <div class="form-group flex flex-col items-start ">
     <label class="mb-2 font-medium text-body2 text-TitleText text-none hidden" for="SubjectId">Subject</label>
     <input
         class="input  "
-        type="text" id="SubjectId" placeholder="Subject" name="@@name" required>
+        type="text" id="SubjectId" placeholder="Subject" name="subject" required>
     <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
 </div>
-             </div>
-             <div class="col-span-12">
-               <div class="form-group flex flex-col items-start overflow-hidden ">
+               </div>
+               <div class="col-span-12">
+                 <div class="form-group flex flex-col items-start overflow-hidden ">
     <label class="mb-3 font-semibold text-body hidden" for="MessageId">Message</label>
     <textarea
         class="input h-[100px] resize-none "
-        id="MessageId" placeholder="Message" rows="3"></textarea>
+        id="MessageId" placeholder="Message" rows="3" name="message"></textarea>
 </div>
-             </div>
-             <div class="col-span-12">
-               <button class="button group mt-2" type="submit" aria-label="button">
+               </div>
+               <div class="col-span-12">
+                 <button class="button group mt-2" type="submit" aria-label="button">
     <span class="mr-[10px]">Submit Now</span>
     <svg class="group-hover:rotate-[45deg] transition-all" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
         <path d="M4.00001 0C3.63182 0 3.33334 0.298477 3.33334 0.666667C3.33334 1.03486 3.63181 1.33333 4 1.33333H7.72667L0.469997 8.59C0.210425 8.84958 0.210424 9.27043 0.469995 9.53C0.729567 9.78957 1.15042 9.78957 1.40999 9.53L8.66667 2.27333V6C8.66667 6.36819 8.96514 6.66667 9.33333 6.66667C9.70152 6.66667 10 6.36819 10 6V0H4.00001Z" fill="white"/>
     </svg>
 </button>
-             </div>
-           </form>
+               </div>
+             </form>
+           </div>
          </div>
+          <div id="thankYouMessage" class="hidden">
+            <h3 class="text-Top6 lg:text-h4 font-medium text-TitleText tracking-[-1.44px] lg:text-Top5">Thank you for  <span class="text-Blue font-normal ">Contacting!</span></h3>
+<span class="border-b-4 border-Yellow w-14 rounded block mt-5 lg:mt-4 @@StyleLine"></span>
+            <p class="mt-5 lg:mt-4">We will contact you with a few minutes for answering questions you need.</p>
+            <img class="max-w-full mt-6" src="img/ty-img.svg" alt="Thank you for Contacting!">
+            <button id="returnForm" class="button group mt-6" type="button" aria-label="button">
+              <span class="mr-[10px]">Return to the Form</span>
+              <svg class="group-hover:rotate-[45deg] transition-all" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                <path d="M4.00001 0C3.63182 0 3.33334 0.298477 3.33334 0.666667C3.33334 1.03486 3.63181 1.33333 4 1.33333H7.72667L0.469997 8.59C0.210425 8.84958 0.210424 9.27043 0.469995 9.53C0.729567 9.78957 1.15042 9.78957 1.40999 9.53L8.66667 2.27333V6C8.66667 6.36819 8.96514 6.66667 9.33333 6.66667C9.70152 6.66667 10 6.36819 10 6V0H4.00001Z" fill="white"/>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </div>
