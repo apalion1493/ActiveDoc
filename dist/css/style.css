@@ -2147,11 +2147,29 @@ html {
 .top-\[50px\]{
   top: 50px;
 }
+.right-0{
+  right: 0px;
+}
+.right-5{
+  right: 1.25rem;
+}
+.top-2{
+  top: 0.5rem;
+}
+.top-5{
+  top: 1.25rem;
+}
+.top-6{
+  top: 1.5rem;
+}
 .z-10{
   z-index: 10;
 }
 .z-\[10000\]{
   z-index: 10000;
+}
+.z-\[1\]{
+  z-index: 1;
 }
 .col-span-12{
   grid-column: span 12 / span 12;
@@ -4090,6 +4108,18 @@ p{
   overflow-y: scroll;
 }
 
+@media (max-width: 767px){
+  .md\:w-full {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 360px){
+  .sm3\:w-full {
+    width: 100% !important;
+  }
+}
+
 .before\:mr-2::before{
   content: var(--tw-content);
   margin-right: 0.5rem;
@@ -4221,6 +4251,12 @@ p{
 }
 
 @media (max-width: 1023px){
+  .lg\:order-1{
+    order: 1;
+  }
+  .lg\:order-2{
+    order: 2;
+  }
   .lg\:col-span-12{
     grid-column: span 12 / span 12;
   }
@@ -4236,6 +4272,9 @@ p{
   .lg\:mt-8{
     margin-top: 2rem;
   }
+  .lg\:mb-2{
+    margin-bottom: 0.5rem;
+  }
   .lg\:hidden{
     display: none;
   }
@@ -4247,6 +4286,9 @@ p{
   }
   .lg\:max-w-full{
     max-width: 100%;
+  }
+  .lg\:flex-col{
+    flex-direction: column;
   }
   .lg\:justify-center{
     justify-content: center;
@@ -4263,6 +4305,9 @@ p{
   }
   .lg\:gap-y-8{
     row-gap: 2rem;
+  }
+  .lg\:gap-y-4{
+    row-gap: 1rem;
   }
   .lg\:border{
     border-width: 1px;
@@ -4294,6 +4339,9 @@ p{
   .lg\:pt-5{
     padding-top: 1.25rem;
   }
+  .lg\:pt-4{
+    padding-top: 1rem;
+  }
   .lg\:text-Top5{
     font-size: 28px;
     line-height: 100%;
@@ -4314,6 +4362,9 @@ p{
     font-size: 18px;
     line-height: 130%;
   }
+  .lg\:font-normal{
+    font-weight: 400;
+  }
 }
 
 @media (max-width: 767px){
@@ -4322,6 +4373,9 @@ p{
   }
   .md\:mb-2{
     margin-bottom: 0.5rem;
+  }
+  .md\:w-full{
+    width: 100%;
   }
   .md\:max-w-full{
     max-width: 100%;
@@ -4371,6 +4425,12 @@ p{
   .sm\:hidden{
     display: none;
   }
+  .sm\:h-\[250px\]{
+    height: 250px;
+  }
+  .sm\:h-\[\]{
+    height: ;
+  }
   .sm\:max-h-\[250px\]{
     max-height: 250px;
   }
@@ -4380,6 +4440,18 @@ p{
   .sm\:gap-x-0{
     -moz-column-gap: 0px;
          column-gap: 0px;
+  }
+}
+
+@media (max-width: 360px){
+  .sm3\:ml-0{
+    margin-left: 0px;
+  }
+  .sm3\:w-full{
+    width: 100%;
+  }
+  .sm3\:max-w-full{
+    max-width: 100%;
   }
 }
 
