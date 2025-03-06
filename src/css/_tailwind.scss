@@ -71,7 +71,7 @@ section {
 
 .input-radio-block {
   &:checked {
-    background-image: url("../img/icons/Check-box-active-icon20.svg");
+    background-image: url("../img/icons/Check.svg");
   }
 
   @apply relative h-5 w-5 appearance-none rounded-full border border-Blue bg-white disabled:cursor-not-allowed focus:ring-0 outline-0 focus:outline-0 focus:outline-inherit
@@ -113,7 +113,7 @@ input[type='search']::-webkit-search-results-decoration {
 .custom-checkbox {
   position: relative;
   display: inline-flex;
-  align-items: center;
+  align-items: start;
   cursor: pointer;
 }
 

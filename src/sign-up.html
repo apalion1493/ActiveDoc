@@ -129,6 +129,22 @@
               'errorStyle': 'hidden',
               'NameSelect': 'State',
               })
+
+              <div class="flex flex-col gap-y-6 mt-2">
+                @@include('components/checkbox.html', {
+                'styleText': '',
+                'text': 'I consent to be contacted and i have read and agree to the <span class="text-TitleText">ActiveDoc privacy notice and terms of service.*</span> ',
+                'errorStyle': 'hidden',
+                'errorText': 'Error',
+                })
+
+                @@include('components/button.html', {
+                'style': '',
+                'type': 'submit',
+                'ariaLabel': 'Sign Up button',
+                'title': 'Sign Up',
+                })
+              </div>
             </form>
           </div>
         </div>
