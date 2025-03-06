@@ -2316,6 +2316,9 @@ html {
 .h-full{
   height: 100%;
 }
+.h-9{
+  height: 2.25rem;
+}
 .max-h-44{
   max-height: 11rem;
 }
@@ -2350,6 +2353,9 @@ html {
 .w-full{
   width: 100%;
 }
+.w-9{
+  width: 2.25rem;
+}
 .min-w-14{
   min-width: 3.5rem;
 }
@@ -2374,6 +2380,9 @@ html {
 .max-w-\[330px\]{
   max-width: 330px;
 }
+.max-w-\[340px\]{
+  max-width: 340px;
+}
 .max-w-\[358px\]{
   max-width: 358px;
 }
@@ -2395,6 +2404,9 @@ html {
 .max-w-\[578px\]{
   max-width: 578px;
 }
+.max-w-\[630px\]{
+  max-width: 630px;
+}
 .max-w-\[642px\]{
   max-width: 642px;
 }
@@ -2409,15 +2421,6 @@ html {
 }
 .max-w-xs{
   max-width: 20rem;
-}
-.max-w-\[340px\]{
-  max-width: 340px;
-}
-.max-w-\[660px\]{
-  max-width: 660px;
-}
-.max-w-\[630px\]{
-  max-width: 630px;
 }
 .flex-shrink-0{
   flex-shrink: 0;
@@ -3904,37 +3907,6 @@ p{
 
 .w-text {
   max-width: calc(100% - 40px);
-}
-
-@media (max-width: 767px){
-  .icon-40{
-    height: 2.5rem;
-    width: 2.5rem;
-  }
-}
-
-@media (max-width: 1023.98px) {
-  .icon-40-lg {
-    width: 40px !important;
-    height: 40px !important;
-  }
-  .icon-72 {
-    width: 72px !important;
-    height: 72px !important;
-  }
-}
-
-@media (max-width: 767px){
-  .icon-16{
-    height: 1rem;
-    width: 1rem;
-    min-width: 1rem;
-  }
-  .icon-25{
-    height: 25px;
-    width: 25px;
-    min-width: 25px;
-  }
 }
 
 .menu-item-active {

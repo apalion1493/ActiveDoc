@@ -331,32 +331,6 @@
   max-width: calc(100% - 40px);
 }
 
-.icon-40 {
-  @apply md:w-10 md:h-10
-}
-
-.icon-40-lg {
-  @media (max-width: 1023.98px) {
-    width: 40px !important;
-    height: 40px !important;
-  }
-}
-
-.icon-72 {
-  @media (max-width: 1023.98px) {
-    width: 72px !important;
-    height: 72px !important;
-  }
-}
-
-.icon-16 {
-  @apply md:w-4 md:h-4 md:min-w-4
-}
-
-.icon-25 {
-  @apply md:w-[25px] md:h-[25px] md:min-w-[25px]
-}
-
 .menu-item-active {
   position: relative;
 
