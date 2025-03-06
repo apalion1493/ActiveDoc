@@ -553,19 +553,23 @@
   <section class="section bg-white">
     <div class="container">
       <div class="row gap-x-5">
-        <div class="col-span-6">
-          <div class="flex flex-col items-center w-full max-w-[574px]">
+        <div class="col-span-6 lg:col-span-12">
+          <div class="flex flex-col items-center w-full max-w-[574px] lg:max-w-full">
             @@include('components/Title-block.html', {
-            'Style1': '',
+            'Style1': 'text-left self-start',
             'Title1': 'Unlock Exclusive Perks with ',
             'Title2': 'Our Partner Offers',
             'Style2': '',
             'StyleLine': 'text-left mr-auto',
             })
-            <div class="mt-5 flex flex-col">
+            <div class="mt-5 lg:mt-4 flex flex-col">
               <p class="text-base font-medium text-TitleText mb-4">Love ActiveDoc? Unlock Exclusive Deals & Partner Discounts!</p>
-              <p>Being a part of the ActiveDoc community means more than just free, secure document signing—it also opens the door to exclusive offers from our trusted partners. We’ve teamed up with leading brands and service providers to bring you premium deals, discounts, and special perks designed to save you time and money.
-                Whether you need business services, office solutions, financial tools, or professional support, you’ll find exclusive partner benefits tailored to help you streamline your workflow and grow your business.</p>
+              <p>Being a part of the ActiveDoc community means more than just free, secure document signing—it also opens the door to exclusive offers from our trusted partners. We’ve teamed up with leading brands and service providers to bring you premium deals, discounts, and special perks designed to save you time and money.</p>
+              <div class="minlg:hidden my-6 overflow-hidden rounded-2xl w-full border border-BlueStroke">
+                <img class="w-full h-full sm:h-[250px] object-cover" src="img/Image5.png"
+                     alt="Unlock Exclusive Perks with Our Partner Offers">
+              </div>
+              <p>Whether you need business services, office solutions, financial tools, or professional support, you’ll find exclusive partner benefits tailored to help you streamline your workflow and grow your business.</p>
               @@include('components/Link.html', {
               'style': 'mt-8',
               'url': 'sign-up.html',
@@ -574,7 +578,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-6">
+        <div class="col-span-6 lg:hidden">
           <div class="overflow-hidden rounded-2xl w-full border border-BlueStroke">
             <img class="w-full h-full object-cover" src="img/Image5.png"
                  alt="Unlock Exclusive Perks with Our Partner Offers">

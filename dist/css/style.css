@@ -2194,6 +2194,10 @@ html {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -2553,6 +2557,9 @@ html {
 }
 .gap-y-\[6px\]{
   row-gap: 6px;
+}
+.self-start{
+  align-self: flex-start;
 }
 .self-end{
   align-self: flex-end;
