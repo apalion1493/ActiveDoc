@@ -13,29 +13,32 @@
 
   <section class="section bg-Stroke">
     <div class="container">
-      <div class="row gap-x-5">
-        <div class="col-span-5">
+      <div class="row gap-x-5 lg:gap-x-0 lg:gap-y-8">
+        <div class="col-span-5 xl:col-span-4 lg:col-span-12">
           @@include('components/Title-block.html', {
           'Style1': '',
           'Title1': 'We’re Here to ',
           'Style2': '',
           'Title2': 'Help!',
           })
-          <div class="max-w-[469px]">
-            <span class="mt-5 mb-3 block text-Top2 text-TitleText font-medium tracking-[-1.44px]">Get in touch with ActiveDoc</span>
-            <p class="text-base">Got questions? Need assistance? Whether you’re looking for support, business inquiries, or partnership
+          <div class="max-w-[469px] lg:max-w-full">
+            <span class="mt-5 lg:mt-4 mb-3 md:mb-2 block text-Top2 lg:text-base text-TitleText font-medium tracking-[-1.44px]">Get in touch with ActiveDoc</span>
+            <p class="text-base lg:text-body">Got questions? Need assistance? Whether you’re looking for support, business inquiries, or partnership
               opportunities, our team is ready to assist you.</p>
           </div>
         </div>
-        <div class="col-span-7">
-          <div class="flex gap-x-5 justify-end">
+        <div class="col-span-7 xl:col-span-8 lg:col-span-12">
+          <div class="flex gap-x-5 justify-end lg:justify-center md:flex-col md:gap-x-0 md:gap-y-4">
             <div
-              class="relative p-6 rounded-2xl flex flex-col gap-y-5 border border-BlueStroke overflow-hidden shadow-v2 bg-white transition-all hover:border-Blue w-full max-w-[323px]">
+              class="relative p-6 rounded-2xl flex flex-col gap-y-5
+               border border-BlueStroke overflow-hidden shadow-v2
+               bg-white transition-all hover:border-Blue w-full
+               max-w-[323px] md:max-w-full md:px-4 md:py-">
               <div class="flex items-center">
                 <i class="Support"></i>
               </div>
               <div class="flex flex-col">
-                <span class="text-Top3 font-semibold text-TitleText block mb-3">Customer Support</span>
+                <span class="text-Top3 md:text-base font-semibold text-TitleText block mb-3">Customer Support</span>
                 <ul class="flex flex-col gap-y-2">
                   <li class="flex items-start gap-x-2">
                     <i class="Message min-w-5"></i>
@@ -53,12 +56,15 @@
               </div>
             </div>
             <div
-              class="relative p-6 rounded-2xl flex flex-col gap-y-5 border border-BlueStroke overflow-hidden shadow-v2 bg-white transition-all hover:border-Blue w-full max-w-[323px]">
+              class="relative p-6 rounded-2xl flex flex-col gap-y-5
+              border border-BlueStroke overflow-hidden shadow-v2
+              bg-white transition-all hover:border-Blue w-full
+              max-w-[323px] md:max-w-full md:px-4 md:py-5">
               <div class="flex items-center">
                 <i class="Partnership"></i>
               </div>
               <div class="flex flex-col">
-                <span class="text-Top3 font-semibold text-TitleText block mb-3">Business & Partnerships</span>
+                <span class="text-Top3 md:text-base font-semibold text-TitleText block mb-3">Business & Partnerships</span>
                 <ul class="flex flex-col gap-y-2">
                   <li class="flex items-start gap-x-2">
                     <i class="Message min-w-5"></i>
@@ -98,7 +104,9 @@
       </div>
     </div>
   </section>
-  @@include('components/Section-TAQ.html')
+  @@include('components/Section-TAQ.html', {
+  'StyleBg': 'bg-LightGrey bg-g'
+  })
 </main>
 
 @@include('components/script.html')
