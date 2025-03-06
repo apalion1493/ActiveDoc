@@ -2174,6 +2174,18 @@ html {
 .col-span-7{
   grid-column: span 7 / span 7;
 }
+.col-start-2{
+  grid-column-start: 2;
+}
+.col-start-3{
+  grid-column-start: 3;
+}
+.col-end-11{
+  grid-column-end: 11;
+}
+.col-end-10{
+  grid-column-end: 10;
+}
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -2356,6 +2368,9 @@ html {
 .w-9{
   width: 2.25rem;
 }
+.w-1\/3{
+  width: 33.333333%;
+}
 .min-w-14{
   min-width: 3.5rem;
 }
@@ -2422,8 +2437,14 @@ html {
 .max-w-xs{
   max-width: 20rem;
 }
+.max-w-\[33\.3\%\]{
+  max-width: 33.3%;
+}
 .flex-shrink-0{
   flex-shrink: 0;
+}
+.grow{
+  flex-grow: 1;
 }
 .rotate-180{
   --tw-rotate: 180deg;
@@ -2449,6 +2470,9 @@ html {
 }
 .flex-col{
   flex-direction: column;
+}
+.flex-wrap{
+  flex-wrap: wrap;
 }
 .items-start{
   align-items: flex-start;
@@ -2696,6 +2720,18 @@ html {
 .py-\[6px\]{
   padding-top: 6px;
   padding-bottom: 6px;
+}
+.px-\[18px\]{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.px-\[16px\]{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.px-\[15px\]{
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .pb-8{
   padding-bottom: 2rem;
