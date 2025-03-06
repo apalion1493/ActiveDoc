@@ -60,13 +60,13 @@ section {
 	//	@apply border-Blue
 	//}
     //
-    //&.input-icon {
-    //  @apply pl-[44px]
-    //}
+    &.input-icon {
+      @apply pl-[40px] h-12 text-body2 font-normal
+    }
 
-  @apply p-3 bg-LightGrey flex items-center rounded-lg text-body h-[46px]
-  w-full text-BodyText border border-BlueStroke transition-all focus:shadow-v1
-  focus:ring-0 outline-0 focus:outline-0 focus:outline-inherit focus:border-Blue
+  @apply p-3 bg-LightGrey flex items-center rounded-lg text-body h-12
+  w-full text-BodyText border border-BlueStroke transition-all focus:shadow-v5 focus:bg-Stroke
+  focus:ring-0 outline-0 focus:outline-0 focus:outline-inherit focus:border-BlueStroke
 }
 
 .input-radio-block {
@@ -93,7 +93,9 @@ select.select {
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
   appearance: none !important;
-  background-image: url("../img/Dropdown-icon.svg");
+  background: #F7F8F9 url("../img/Dropdown-icon.svg") 97% center no-repeat;
+  background-size: 15px 15px;
+  font-size: 14px;
   @apply text-BodyText
 }
 

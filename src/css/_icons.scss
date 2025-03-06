@@ -123,9 +123,22 @@
   @apply block h-[20px] w-[20px] bg-100-auto bg-center bg-no-repeat;
 }
 
+.Location-input {
+  background-size: 20px 20px;
+  background: #F7F8F9 url("../img/icons/Location.svg") 12px center;
+  @apply block bg-no-repeat;
+}
+
 .User {
-  background: url("../img/icons/User.svg");
-  @apply block h-[20px] w-[20px] bg-100-auto bg-center bg-no-repeat;
+  background-size: 20px 20px;
+  background: #F7F8F9 url("../img/icons/User.svg") 12px center;
+  @apply block bg-no-repeat;
+}
+
+.Message-input {
+  background-size: 20px 20px;
+  background: #F7F8F9 url("../img/icons/Message.svg") 12px center;
+  @apply block bg-no-repeat;
 }
 
 .Lock {
@@ -133,9 +146,21 @@
   @apply block h-[20px] w-[20px] bg-100-auto bg-center bg-no-repeat;
 }
 
+.Lock-input {
+  background-size: 20px 20px;
+  background: #F7F8F9 url("../img/icons/Lock.svg") 12px center;
+  @apply block bg-no-repeat;
+}
+
 .Calendar {
   background: url("../img/icons/Calendar.svg");
   @apply block h-[20px] w-[20px] bg-100-auto bg-center bg-no-repeat;
+}
+
+.Calendar-input {
+  background-size: 20px 20px;
+  background: #F7F8F9 url("../img/icons/Calendar.svg") 12px center;
+  @apply block bg-no-repeat;
 }
 
 .Office {
@@ -143,9 +168,21 @@
   @apply block h-[20px] w-[20px] bg-100-auto bg-center bg-no-repeat;
 }
 
+.Office-input {
+  background-size: 20px 20px;
+  background: #F7F8F9 url("../img/icons/Office.svg") 12px center;
+  @apply block bg-no-repeat;
+}
+
 .Zip {
   background: url("../img/icons/zip.svg");
   @apply block h-[20px] w-[20px] bg-100-auto bg-center bg-no-repeat;
+}
+
+.Zip-input {
+  background-size: 20px 20px;
+  background: #F7F8F9 url("../img/icons/zip.svg") 12px center;
+  @apply block bg-no-repeat;
 }
 
 .Time-yellow {

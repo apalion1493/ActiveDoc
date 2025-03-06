@@ -48,7 +48,89 @@
   <section class="section">
     <div class="container">
       <div class="row">
+        <div class="col-span-6 col-start-4">
+          <div class="flex flex-col w-full">
+            <h3 class="text-Top6 font-medium text-TitleText tracking-[-1.44px] text-center">Sign  <span class="text-Blue font-normal ">Up</span></h3>
+<span class="border-b-4 border-Yellow w-14 rounded block mt-5 mx-auto"></span>
+            <p class="mt-5 text-center text-base">Actually have an account? <a class="text-Blue underline font-medium" href="log-in.html">Log in here</a></p>
+            <form class="mt-8 p-10 flex flex-col gap-y-4 bg-white rounded-2xl border border-BlueStroke shadow-v4">
+              <div class="form-group flex flex-col items-start ">
+    <label class="mb-2 font-medium text-body2 text-TitleText " for="nameId">Full name</label>
+    <input
+        class="input input-icon User "
+        type="text" id="nameId" placeholder="Your Name" name="name" required>
+    <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
+</div>
 
+              <div class="form-group flex flex-col items-start ">
+    <label class="mb-2 font-medium text-body2 text-TitleText " for="mailId">Email</label>
+    <input
+        class="input input-icon Message-input "
+        type="mail" id="mailId" placeholder="example@youremail.com" name="email" required>
+    <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
+</div>
+
+              <div class="form-group flex flex-col items-start ">
+    <label class="mb-2 font-medium text-body2 text-TitleText " for="passId1">Password</label>
+    <input
+        class="input input-icon Lock-input "
+        type="password" id="passId1" placeholder="******" name="password" required>
+    <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
+</div>
+
+              <div class="form-group flex flex-col items-start ">
+    <label class="mb-2 font-medium text-body2 text-TitleText " for="passId2">Repeat Password</label>
+    <input
+        class="input input-icon Lock-input "
+        type="password" id="passId2" placeholder="******" name="repeatPassword" required>
+    <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
+</div>
+
+              <div class="form-group flex flex-col items-start ">
+    <label class="mb-2 font-medium text-body2 text-TitleText " for="dateInput">Date of Birth</label>
+    <input
+        class="input input-icon Calendar-input "
+        type="text" id="dateInput" placeholder="MM/DD/YY" maxlength="8" name="DateOfBirth" required>
+    <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
+</div>
+
+              <div class="form-group flex flex-col items-start ">
+    <label class="mb-2 font-medium text-body2 text-TitleText " for="companyNameID">Company Name</label>
+    <input
+        class="input input-icon Office-input "
+        type="text" id="companyNameID" placeholder="Company Name" name="companyName" required>
+    <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
+</div>
+
+              <div class="form-group flex flex-col items-start ">
+    <label class="mb-2 font-medium text-body2 text-TitleText " for="AddressID">Address</label>
+    <input
+        class="input input-icon Location-input "
+        type="text" id="AddressID" placeholder="Street 123" name="address" required>
+    <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
+</div>
+
+              <div class="form-group flex flex-col items-start ">
+    <label class="mb-2 font-medium text-body2 text-TitleText " for="ZipCodeID">Zip Code</label>
+    <input
+        class="input input-icon Zip-input "
+        type="text" id="ZipCodeID" placeholder="Zip Code" name="zipCode" required>
+    <small class="self-end text-body4 text-Error mt-2 hidden">Name is required</small>
+</div>
+
+              <div class="form-group flex flex-col items-start relative ">
+    <label class="mb-2 font-medium text-body2 text-TitleText" for="StateID">State</label>
+    <select id="StateID" name="State" class="select w-full input">
+        <option selected>Choose State</option>
+        <option value="1">Зажопинск</option>
+        <option value="2">Чигири</option>
+        <option value="3">Жопа мира</option>
+    </select>
+</div>
+
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </section>

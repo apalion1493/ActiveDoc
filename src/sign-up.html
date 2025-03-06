@@ -14,7 +14,124 @@
   <section class="section">
     <div class="container">
       <div class="row">
+        <div class="col-span-6 col-start-4">
+          <div class="flex flex-col w-full">
+            @@include('components/Title-block.html', {
+            'Style1': 'text-center',
+            'Title1': 'Sign ',
+            'Style2': '',
+            'Title2': 'Up',
+            'StyleLine': 'mx-auto',
+            })
+            <p class="mt-5 text-center text-base">Actually have an account? <a class="text-Blue underline font-medium" href="log-in.html">Log in here</a></p>
+            <form class="mt-8 p-10 flex flex-col gap-y-4 bg-white rounded-2xl border border-BlueStroke shadow-v4">
+              @@include('components/input.html', {
+              'common-style': '',
+              'StyleLabel': '',
+              'idInput': 'nameId',
+              'label': 'Full name',
+              'styleInput': 'input-icon User',
+              'type': 'text',
+              'placeholder': 'Your Name',
+              'errorStyle': 'hidden',
+              'name': 'name',
+              })
 
+              @@include('components/input.html', {
+              'common-style': '',
+              'StyleLabel': '',
+              'idInput': 'mailId',
+              'label': 'Email',
+              'styleInput': 'input-icon Message-input',
+              'type': 'mail',
+              'placeholder': 'example@youremail.com',
+              'errorStyle': 'hidden',
+              'name': 'email',
+              })
+
+              @@include('components/input.html', {
+              'common-style': '',
+              'StyleLabel': '',
+              'idInput': 'passId1',
+              'label': 'Password',
+              'styleInput': 'input-icon Lock-input',
+              'type': 'password',
+              'placeholder': '******',
+              'errorStyle': 'hidden',
+              'name': 'password',
+              })
+
+              @@include('components/input.html', {
+              'common-style': '',
+              'StyleLabel': '',
+              'idInput': 'passId2',
+              'label': 'Repeat Password',
+              'styleInput': 'input-icon Lock-input',
+              'type': 'password',
+              'placeholder': '******',
+              'errorStyle': 'hidden',
+              'name': 'repeatPassword',
+              })
+
+              @@include('components/input-date.html', {
+              'common-style': '',
+              'StyleLabel': '',
+              'idInput': 'dateInput',
+              'label': 'Date of Birth',
+              'styleInput': 'input-icon Calendar-input',
+              'type': 'text',
+              'placeholder': 'MM/DD/YY',
+              'errorStyle': 'hidden',
+              'name': 'DateOfBirth',
+              })
+
+              @@include('components/input.html', {
+              'common-style': '',
+              'StyleLabel': '',
+              'idInput': 'companyNameID',
+              'label': 'Company Name',
+              'styleInput': 'input-icon Office-input',
+              'type': 'text',
+              'placeholder': 'Company Name',
+              'errorStyle': 'hidden',
+              'name': 'companyName',
+              })
+
+              @@include('components/input.html', {
+              'common-style': '',
+              'StyleLabel': '',
+              'idInput': 'AddressID',
+              'label': 'Address',
+              'styleInput': 'input-icon Location-input',
+              'type': 'text',
+              'placeholder': 'Street 123',
+              'errorStyle': 'hidden',
+              'name': 'address',
+              })
+
+              @@include('components/input.html', {
+              'common-style': '',
+              'StyleLabel': '',
+              'idInput': 'ZipCodeID',
+              'label': 'Zip Code',
+              'styleInput': 'input-icon Zip-input',
+              'type': 'text',
+              'placeholder': 'Zip Code',
+              'errorStyle': 'hidden',
+              'name': 'zipCode',
+              })
+
+              @@include('components/Select.html', {
+              'commonStyle': '',
+              'StyleLabel': '',
+              'label': 'State',
+              'idSelect': 'StateID',
+              'errorStyle': 'hidden',
+              'NameSelect': 'State',
+              })
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </section>

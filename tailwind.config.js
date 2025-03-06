@@ -79,6 +79,8 @@ module.exports = {
                 'v1': '0px 0px 16px 0px rgba(37, 51, 126, 0.05)',
                 'v2': '0px 0px 15px 0px rgba(5, 25, 68, 0.05)',
                 'v3': '0px 2px 8px 0px rgba(5, 25, 68, 0.08)',
+                'v4': '0px 0px 10px 0px rgba(5, 25, 68, 0.05)',
+                'v5': '0px 0px 8px 0px rgba(5, 25, 68, 0.08)',
             },
             borderRadius: {
                 '4xl': '32px',
@@ -96,6 +98,7 @@ module.exports = {
                 Yellow: '#FCAF17',
                 White50: '#FFFFFF80',
                 White20: '#FFFFFF33',
+                Error: '#F25F5F',
             },
             letterSpacing: {
                 '018': '-0.18px'
