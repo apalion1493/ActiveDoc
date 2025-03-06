@@ -23,7 +23,7 @@
             'Title2': 'Services Terms & Conditions',
             })
             <div class="flex flex-col gap-y-8 mt-5">
-              <p class=" text-base">Important notice: these activedoc sites and services terms and conditions (the
+              <p class=" text-base lg:text-body">Important notice: these activedoc sites and services terms and conditions (the
                 “terms” or “general terms”) contain a binding arbitration provision and waiver of jury trials and class
                 actions governing disputes arising from use of the activedoc site and services. This affects your legal
                 rights as detailed in the mandatory arbitration and waiver of class action section. Please read
@@ -34,15 +34,15 @@
                   the following (collectively, “you” or “your”):</p>
                 <br>
                 <ul class="list-none">
-                  <li class="flex items-center before:content-['-'] before:mr-2">
+                  <li class="flex items-start before:content-['-'] before:mr-2">
                     General website visitors to activedoc.com and/or other websites owned or operated by ActiveDoc (each
                     a “Website Visitor”);
                   </li>
-                  <li class="flex items-center before:content-['-'] before:mr-2">
+                  <li class="flex items-start before:content-['-'] before:mr-2">
                     Subscribers or licensees to one or more of our products or services (“ActiveDoc Services”) (each, a
                     “Customer”); and
                   </li>
-                  <li class="flex items-center before:content-['-'] before:mr-2">
+                  <li class="flex items-start before:content-['-'] before:mr-2">
                     Users of ActiveDoc Services, including Authorized Users (as defined below) of Customer Accounts and
                     other ActiveDoc Service end users (each, a “User”).
                   </li>
@@ -85,7 +85,9 @@
       </div>
     </div>
   </section>
-  @@include('components/Section-TAQ.html')
+  @@include('components/Section-TAQ.html', {
+  'StyleBg': 'bg-LightGrey'
+  })
 </main>
 
 @@include('components/script.html')

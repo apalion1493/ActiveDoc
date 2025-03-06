@@ -2334,6 +2334,12 @@ html {
 .max-h-screen{
   max-height: 100vh;
 }
+.max-h-\[250px\]{
+  max-height: 250px;
+}
+.max-h-\[350px\]{
+  max-height: 350px;
+}
 .min-h-\[60px\]{
   min-height: 60px;
 }
@@ -4211,6 +4217,9 @@ p{
   .lg\:mt-4{
     margin-top: 1rem;
   }
+  .lg\:mt-6{
+    margin-top: 1.5rem;
+  }
   .lg\:hidden{
     display: none;
   }
@@ -4229,11 +4238,39 @@ p{
   .lg\:gap-y-3{
     row-gap: 0.75rem;
   }
+  .lg\:gap-x-0{
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+  }
+  .lg\:border{
+    border-width: 1px;
+  }
+  .lg\:border-BlueStroke{
+    --tw-border-opacity: 1;
+    border-color: rgb(213 225 234 / var(--tw-border-opacity, 1));
+  }
+  .lg\:bg-white{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  }
+  .lg\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .lg\:pb-5{
     padding-bottom: 1.25rem;
   }
   .lg\:pt-10{
     padding-top: 2.5rem;
+  }
+  .lg\:pb-6{
+    padding-bottom: 1.5rem;
+  }
+  .lg\:pt-5{
+    padding-top: 1.25rem;
+  }
+  .lg\:pl-0{
+    padding-left: 0px;
   }
   .lg\:text-body2{
     font-size: 14px;
@@ -4242,6 +4279,14 @@ p{
   .lg\:text-h4{
     font-size: 32px;
     line-height: 110%;
+  }
+  .lg\:text-Top5{
+    font-size: 28px;
+    line-height: 100%;
+  }
+  .lg\:text-body{
+    font-size: 16px;
+    line-height: 130%;
   }
 }
 
@@ -4271,16 +4316,54 @@ p{
 }
 
 @media (max-width: 639px){
+  .sm\:col-span-12{
+    grid-column: span 12 / span 12;
+  }
   .sm\:hidden{
     display: none;
   }
+  .sm\:max-h-\[250px\]{
+    max-height: 250px;
+  }
+  .sm\:max-w-\[250px\]{
+    max-width: 250px;
+  }
   .sm\:flex-col{
     flex-direction: column;
+  }
+  .sm\:gap-x-0{
+    -moz-column-gap: 0px;
+         column-gap: 0px;
   }
 }
 
 @media (min-width: 1024px){
   .minlg\:hidden{
     display: none;
+  }
+  .minlg\:border{
+    border-width: 1px;
+  }
+  .minlg\:border-BlueStroke{
+    --tw-border-opacity: 1;
+    border-color: rgb(213 225 234 / var(--tw-border-opacity, 1));
+  }
+  .minlg\:bg-white{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  }
+  .minlg\:py-5{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  .minlg\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .minlg\:pb-6{
+    padding-bottom: 1.5rem;
+  }
+  .minlg\:pt-5{
+    padding-top: 1.25rem;
   }
 }
