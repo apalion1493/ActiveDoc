@@ -2212,6 +2212,9 @@ html {
 .ml-3{
   margin-left: 0.75rem;
 }
+.ml-5{
+  margin-left: 1.25rem;
+}
 .ml-\[68px\]{
   margin-left: 68px;
 }
@@ -2531,11 +2534,14 @@ html {
 .gap-y-5{
   row-gap: 1.25rem;
 }
+.gap-y-6{
+  row-gap: 1.5rem;
+}
 .gap-y-8{
   row-gap: 2rem;
 }
-.gap-y-6{
-  row-gap: 1.5rem;
+.gap-y-\[6px\]{
+  row-gap: 6px;
 }
 .self-end{
   align-self: flex-end;
@@ -2694,6 +2700,10 @@ html {
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 .py-2{
   padding-top: 0.5rem;
@@ -2903,6 +2913,19 @@ html {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+.transition-opacity{
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-transform{
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-300{
+  transition-duration: 300ms;
 }
 .border-none {
   border: none !important;
@@ -3580,7 +3603,7 @@ p{
   min-height: 3rem;
   width: -moz-fit-content;
   width: fit-content;
-  min-width: 179px;
+  min-width: 137px;
   align-items: center;
   justify-content: center;
   border-radius: 32px;
@@ -3602,6 +3625,12 @@ p{
 .button:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(5 25 68 / var(--tw-bg-opacity, 1));
+}
+
+@media (max-width: 1023px){
+  .button{
+    font-weight: 500;
+  }
 }
 .button.width-full {
     width: 100%;
@@ -4019,6 +4048,35 @@ p{
   margin-bottom: 24px;
 }
 
+.mobile-menu {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  position: fixed;
+  left: -100%;
+  top: 90px;
+  z-index: 97;
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 241 246 / var(--tw-bg-opacity, 1));
+}
+
+@media (max-width: 1023px){
+  .mobile-menu{
+    top: 81px;
+  }
+}
+
+@media (min-width: 1024px){
+  .mobile-menu{
+    display: none;
+  }
+}
+
+.mobile-menu.active {
+  left: 0;
+  overflow-y: scroll;
+}
+
 .before\:mr-2::before{
   content: var(--tw-content);
   margin-right: 0.5rem;
@@ -4116,6 +4174,30 @@ p{
   fill: #fff;
 }
 
+.group.open .group-\[\.open\]\:-translate-y-2{
+  --tw-translate-y: -0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group.open .group-\[\.open\]\:translate-y-2{
+  --tw-translate-y: 0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group.open .group-\[\.open\]\:-rotate-45{
+  --tw-rotate: -45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group.open .group-\[\.open\]\:rotate-45{
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group.open .group-\[\.open\]\:opacity-0{
+  opacity: 0;
+}
+
 @media (max-width: 1023px){
   .lg\:col-span-12{
     grid-column: span 12 / span 12;
@@ -4126,8 +4208,14 @@ p{
   .lg\:mt-8{
     margin-top: 2rem;
   }
+  .lg\:hidden{
+    display: none;
+  }
   .lg\:h-\[36px\]{
     height: 36px;
+  }
+  .lg\:w-\[150px\]{
+    width: 150px;
   }
   .lg\:max-w-full{
     max-width: 100%;
@@ -4138,14 +4226,11 @@ p{
   .lg\:gap-y-3{
     row-gap: 0.75rem;
   }
-  .lg\:gap-y-2{
-    row-gap: 0.5rem;
+  .lg\:pb-5{
+    padding-bottom: 1.25rem;
   }
   .lg\:pt-10{
     padding-top: 2.5rem;
-  }
-  .lg\:pb-5{
-    padding-bottom: 1.25rem;
   }
   .lg\:text-body2{
     font-size: 14px;
@@ -4169,5 +4254,11 @@ p{
   }
   .sm\:flex-col{
     flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px){
+  .minlg\:hidden{
+    display: none;
   }
 }

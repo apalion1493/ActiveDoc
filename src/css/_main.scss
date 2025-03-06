@@ -16,7 +16,7 @@
     @apply min-w-[0px]
   }
 
-  @apply h-12 min-h-12 px-8 min-w-[179px] w-fit flex items-center justify-center rounded-4xl text-white text-body text-center font-semibold bg-Blue transition-all hover:bg-TitleText;
+  @apply h-12 min-h-12 px-8 min-w-[137px] w-fit flex items-center justify-center rounded-4xl text-white text-body text-center font-semibold lg:font-medium bg-Blue transition-all hover:bg-TitleText;
 }
 
 // Button with arrow Style End
@@ -352,4 +352,16 @@
     border-bottom: 1px solid #05093E1A;
     margin-bottom: 24px;
   }
+}
+
+.mobile-menu {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  @apply fixed -left-full top-[90px] lg:top-[81px] z-[97] bg-Stroke minlg:hidden;
+}
+
+.mobile-menu.active {
+  left: 0;
+  overflow-y: scroll;
 }
