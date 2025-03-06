@@ -237,41 +237,41 @@
                 <div class="swiper-slide">
                   @@include('components/Benefits-Card.html', {
                   'Style': '',
-                  'Icon': 'Referral-Program',
-                  'Title': 'Referral Program',
-                  'Text': 'Get rewarded with unbeatable deals and perks.',
+                  'Icon': 'Secure',
+                  'Title': 'Secure & Legally Binding',
+                  'Text': 'Your documents are protected with the highest security standards.',
                   })
                 </div>
                 <div class="swiper-slide">
                   @@include('components/Benefits-Card.html', {
                   'Style': '',
-                  'Icon': 'Referral-Program',
-                  'Title': 'Referral Program',
-                  'Text': 'Get rewarded with unbeatable deals and perks.',
+                  'Icon': 'Effortless-Signing',
+                  'Title': 'Effortless Signing',
+                  'Text': 'No more downloads. No delays. Sign in few seconds.',
                   })
                 </div>
                 <div class="swiper-slide">
                   @@include('components/Benefits-Card.html', {
                   'Style': '',
-                  'Icon': 'Referral-Program',
-                  'Title': 'Referral Program',
-                  'Text': 'Get rewarded with unbeatable deals and perks.',
+                  'Icon': 'User-Friendly',
+                  'Title': 'User-Friendly & Free',
+                  'Text': 'No hidden fees, no gimmicks. Just easy, fast signing.',
                   })
                 </div>
                 <div class="swiper-slide">
                   @@include('components/Benefits-Card.html', {
                   'Style': '',
-                  'Icon': 'Referral-Program',
-                  'Title': 'Referral Program',
-                  'Text': 'Get rewarded with unbeatable deals and perks.',
+                  'Icon': 'Track-Manage',
+                  'Title': 'Track & Manage',
+                  'Text': 'Know exactly when your documents are viewed and signed.',
                   })
                 </div>
                 <div class="swiper-slide">
                   @@include('components/Benefits-Card.html', {
                   'Style': '',
-                  'Icon': 'Referral-Program',
-                  'Title': 'Referral Program',
-                  'Text': 'Get rewarded with unbeatable deals and perks.',
+                  'Icon': 'Online-Support',
+                  'Title': 'Fast Online Support',
+                  'Text': 'A Dedicated support team is always ready to provide best support',
                   })
                 </div>
               </div>
@@ -506,8 +506,8 @@
   </section>
   <section class="section bg-Stroke">
     <div class="container">
-      <div class="row gap-5">
-        <div class="col-span-4">
+      <div class="row gap-5 md:hidden">
+        <div class="col-span-4 lg:col-span-6">
           @@include('components/Info-card-2.html', {
           'Icon': 'customer-notifications',
           'Title': 'Send notifications',
@@ -515,7 +515,7 @@
           'Style': '',
           })
         </div>
-        <div class="col-span-4">
+        <div class="col-span-4 lg:col-span-6">
           @@include('components/Info-card-2.html', {
           'Icon': 'business-communications',
           'Title': 'Deliver communications',
@@ -523,7 +523,7 @@
           'Style': '',
           })
         </div>
-        <div class="col-span-4 ">
+        <div class="col-span-4 lg:col-span-6 ">
           @@include('components/Info-card-2.html', {
           'Icon': 'compliance-letters',
           'Title': 'Distribute letters',
@@ -531,7 +531,7 @@
           'Style': '',
           })
         </div>
-        <div class="col-span-4 col-start-3 ">
+        <div class="col-span-4 lg:col-span-6 col-start-3 ">
           @@include('components/Info-card-2.html', {
           'Icon': 'personalized-correspondence',
           'Title': 'Send correspondences',
@@ -539,13 +539,62 @@
           'Style': '',
           })
         </div>
-        <div class="col-span-4 col-end-11">
+        <div class="col-span-4 lg:col-span-6 col-end-11">
           @@include('components/Info-card-2.html', {
           'Icon': 'financial-statements',
           'Title': 'Mail invoices',
           'Text': 'Mail business or customer invoices and financial statements ensuring timely payments and record-keeping.',
           'Style': '',
           })
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-span-12">
+          <div class="minmd:hidden swiper mySwiper2 swiper-custom">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                @@include('components/Info-card-2.html', {
+                'Icon': 'customer-notifications',
+                'Title': 'Send notifications',
+                'Text': 'Send customer notifications-account updates, payment reminders, or appointment confirmations.',
+                'Style': 'md:max-w-[305px]',
+                })
+              </div>
+              <div class="swiper-slide">
+                @@include('components/Info-card-2.html', {
+                'Icon': 'business-communications',
+                'Title': 'Deliver communications',
+                'Text': 'Deliver official business communications – shareholder updates, company announcements, or HR- notices.',
+                'Style': 'md:max-w-[305px]',
+                })
+              </div>
+              <div class="swiper-slide">
+                @@include('components/Info-card-2.html', {
+                'Icon': 'compliance-letters',
+                'Title': 'Distribute letters',
+                'Text': 'Distribute any legal or compliance letters – contracts, policy updates, or government - mandated notices and letters.',
+                'Style': 'md:max-w-[305px]',
+                })
+              </div>
+              <div class="swiper-slide">
+                @@include('components/Info-card-2.html', {
+                'Icon': 'personalized-correspondence',
+                'Title': 'Send correspondences',
+                'Text': 'Send personalized correspondence - direct mail marketing, holiday greetings, or thank-you letters.',
+                'Style': 'md:max-w-[305px]',
+                })
+              </div>
+              <div class="swiper-slide">
+                @@include('components/Info-card-2.html', {
+                'Icon': 'financial-statements',
+                'Title': 'Mail invoices',
+                'Text': 'Mail business or customer invoices and financial statements ensuring timely payments and record-keeping.',
+                'Style': 'md:max-w-[305px]',
+                })
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
       </div>
     </div>

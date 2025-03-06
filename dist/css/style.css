@@ -2438,11 +2438,11 @@ html {
 .max-w-\[820px\]{
   max-width: 820px;
 }
-.max-w-xs{
-  max-width: 20rem;
-}
 .max-w-full{
   max-width: 100%;
+}
+.max-w-xs{
+  max-width: 20rem;
 }
 .flex-shrink-0{
   flex-shrink: 0;
@@ -2868,10 +2868,6 @@ html {
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
-}
-.text-green-600{
-  --tw-text-opacity: 1;
-  color: rgb(22 163 74 / var(--tw-text-opacity, 1));
 }
 .text-white{
   --tw-text-opacity: 1;
@@ -3877,6 +3873,7 @@ p{
 
 .swiper-custom.swiper .swiper-slide {
   width: auto;
+  height: auto;
 }
 
 .swiper-custom .swiper-pagination-fraction, .swiper-custom .swiper-pagination-custom, .swiper-custom .swiper-horizontal > .swiper-pagination-bullets, .swiper-custom .swiper-pagination-bullets.swiper-pagination-horizontal {
@@ -4469,6 +4466,10 @@ p{
   .md\:text-body{
     font-size: 16px;
     line-height: 130%;
+  }
+  .md\:text-body2{
+    font-size: 14px;
+    line-height: 120%;
   }
   .md\:text-body4{
     font-size: 12px;

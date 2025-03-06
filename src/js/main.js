@@ -17,6 +17,23 @@ window.addEventListener('DOMContentLoaded', () => {
             },
         },
     });
+
+    const swiper2 = new Swiper(".mySwiper2", {
+        slidesPerView: 2,
+        spaceBetween: 16,
+        pagination: {
+            el: ".swiper-pagination"
+        },
+        breakpoints: {
+            1024: {
+                slidesPerView: 4,
+            },
+
+            0: {
+                slidesPerView: 'auto',
+            },
+        },
+    });
 })
 
 document.addEventListener('DOMContentLoaded', function () {
