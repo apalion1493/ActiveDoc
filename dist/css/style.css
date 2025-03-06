@@ -2266,6 +2266,15 @@ html {
 .mt-auto{
   margin-top: auto;
 }
+.ml-\[58px\]{
+  margin-left: 58px;
+}
+.mt-1{
+  margin-top: 0.25rem;
+}
+.mt-\[40px\]{
+  margin-top: 40px;
+}
 .block{
   display: block;
 }
@@ -4240,6 +4249,25 @@ p{
   .xl\:col-span-8{
     grid-column: span 8 / span 8;
   }
+  .xl\:col-span-6{
+    grid-column: span 6 / span 6;
+  }
+  .xl\:flex-col{
+    flex-direction: column;
+  }
+  .xl\:items-center{
+    align-items: center;
+  }
+  .xl\:gap-x-0{
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+  }
+  .xl\:gap-y-8{
+    row-gap: 2rem;
+  }
+  .xl\:gap-y-4{
+    row-gap: 1rem;
+  }
 }
 
 @media (max-width: 1023px){
@@ -4381,6 +4409,9 @@ p{
   .md\:mb-2{
     margin-bottom: 0.5rem;
   }
+  .md\:mt-1{
+    margin-top: 0.25rem;
+  }
   .md\:hidden{
     display: none;
   }
@@ -4399,6 +4430,9 @@ p{
   }
   .md\:gap-y-4{
     row-gap: 1rem;
+  }
+  .md\:gap-y-2{
+    row-gap: 0.5rem;
   }
   .md\:overflow-y-scroll{
     overflow-y: scroll;
@@ -4430,6 +4464,10 @@ p{
   .md\:text-body4{
     font-size: 12px;
     line-height: 120%;
+  }
+  .md\:text-Top3{
+    font-size: 20px;
+    line-height: 130%;
   }
 }
 
