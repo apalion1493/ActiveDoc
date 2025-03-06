@@ -93,13 +93,20 @@
           'Title2': 'Location',
           'StyleLine': 'mx-auto',
           })
-          <div class="flex items-baseline justify-center mt-5 gap-x-1">
-            <i class="mr-1 City self-center"></i>
-            <p class="text-Top3 font-semibold text-TitleText">ActiveDoc LLC -</p>
+          <div class="flex items-baseline justify-center mt-5 gap-1 flex-wrap">
+            <div class="flex items-baseline">
+              <i class="mr-1 City self-center"></i>
+              <p class="text-Top3 font-semibold text-TitleText">ActiveDoc LLC -</p>
+            </div>
             <p class="text-body text-TitleText">123 Street, Suite123 Florida, USA</p>
           </div>
 
-          <img class="h-[309px] mt-8 w-full object-cover rounded-2xl border border-BlueStroke overflow-hidden" src="img/Map.jpg" alt="Map">
+          <iframe
+            class="h-[309px] mt-8 w-full object-cover rounded-2xl border border-BlueStroke overflow-hidden"
+            src="https://maps.google.com/maps?q=123+Street,+Suite+123,+Florida,+USA&output=embed"
+            allowfullscreen=""
+            loading="lazy"> <!--NEED API KEY-->
+          </iframe>
         </div>
       </div>
     </div>
