@@ -170,20 +170,46 @@
 
 // swiper Start
 
+//.swiper {
+//  max-width: 100%;
+//}
+
+.swiper-custom.swiper {
+  overflow: visible;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.swiper-custom.swiper .swiper-slide {
+  width: auto;
+}
+
 .swiper-custom {
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -10px;
+  }
+
+  .swiper-pagination-bullets-dynamic {
+    overflow: visible;
+  }
+
   .swiper-pagination-bullet {
-    @apply w-6 h-6 lg:w-[18px] lg:h-[18px] opacity-100 bg-Blue
+    @apply w-6 h-6 lg:w-[8px] lg:h-[8px] opacity-100 bg-BlueStroke
+  }
+
+  .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    transform: scale(1);
   }
 
   .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next,
   .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev,
   .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next,
   .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
-    transform: scale(0.6);
+    transform: scale(1);
   }
 
   .swiper-pagination-bullet-active {
-    @apply bg-Blue
+    @apply bg-Blue w-[28px] rounded
   }
 
   .swiper-button-prev:after, .swiper-button-next:after {

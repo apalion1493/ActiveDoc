@@ -58,7 +58,7 @@
       </div>
     </div>
   </section>
-  <section class="section bg-LightGrey">
+  <section class="section bg-LightGrey overflow-hidden">
     <div class="container">
       <div class="row">
         <div class="col-span-12">
@@ -71,9 +71,9 @@
             })
             <p class="mt-5 text-center">We’re committed to making digital document management effortless while ensuring every signature is secure and legally recognized.</p>
           </div>
-          <div class="flex max-w-[1030px] mt-8 mx-auto">
-            <div class="row w-full gap-5">
-              <div class="col-span-4">
+          <div class="flex flex-col max-w-[1030px] md:max-w-full mt-8 mx-auto">
+            <div class="row w-full gap-5 md:hidden">
+              <div class="col-span-4 lg:col-span-6">
                 @@include('components/Benefits-Card.html', {
                 'Style': '',
                 'Icon': 'Referral-Program',
@@ -81,7 +81,7 @@
                 'Text': 'Get rewarded with unbeatable deals and perks.',
                 })
               </div>
-              <div class="col-span-4">
+              <div class="col-span-4 lg:col-span-6">
                 @@include('components/Benefits-Card.html', {
                 'Style': '',
                 'Icon': 'Secure',
@@ -89,7 +89,7 @@
                 'Text': 'Your documents are protected with the highest security standards.',
                 })
               </div>
-              <div class="col-span-4">
+              <div class="col-span-4 lg:col-span-6">
                 @@include('components/Benefits-Card.html', {
                 'Style': '',
                 'Icon': 'Effortless-Signing',
@@ -97,7 +97,7 @@
                 'Text': 'No more downloads. No delays. Sign in few seconds.',
                 })
               </div>
-              <div class="col-span-4">
+              <div class="col-span-4 lg:col-span-6">
                 @@include('components/Benefits-Card.html', {
                 'Style': '',
                 'Icon': 'User-Friendly',
@@ -105,7 +105,7 @@
                 'Text': 'No hidden fees, no gimmicks. Just easy, fast signing.',
                 })
               </div>
-              <div class="col-span-4">
+              <div class="col-span-4 lg:col-span-6">
                 @@include('components/Benefits-Card.html', {
                 'Style': '',
                 'Icon': 'Track-Manage',
@@ -113,7 +113,7 @@
                 'Text': 'Know exactly when your documents are viewed and signed.',
                 })
               </div>
-              <div class="col-span-4">
+              <div class="col-span-4 lg:col-span-6">
                 @@include('components/Benefits-Card.html', {
                 'Style': '',
                 'Icon': 'Online-Support',
@@ -121,9 +121,64 @@
                 'Text': 'A Dedicated support team is always ready to provide best support',
                 })
               </div>
-              <div class="col-span-12 flex justify-center">
+            </div>
+            <div class="minmd:hidden swiper mySwiper swiper-custom">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  @@include('components/Benefits-Card.html', {
+                  'Style': '',
+                  'Icon': 'Referral-Program',
+                  'Title': 'Referral Program',
+                  'Text': 'Get rewarded with unbeatable deals and perks.',
+                  })
+                </div>
+                <div class="swiper-slide">
+                  @@include('components/Benefits-Card.html', {
+                  'Style': '',
+                  'Icon': 'Referral-Program',
+                  'Title': 'Referral Program',
+                  'Text': 'Get rewarded with unbeatable deals and perks.',
+                  })
+                </div>
+                <div class="swiper-slide">
+                  @@include('components/Benefits-Card.html', {
+                  'Style': '',
+                  'Icon': 'Referral-Program',
+                  'Title': 'Referral Program',
+                  'Text': 'Get rewarded with unbeatable deals and perks.',
+                  })
+                </div>
+                <div class="swiper-slide">
+                  @@include('components/Benefits-Card.html', {
+                  'Style': '',
+                  'Icon': 'Referral-Program',
+                  'Title': 'Referral Program',
+                  'Text': 'Get rewarded with unbeatable deals and perks.',
+                  })
+                </div>
+                <div class="swiper-slide">
+                  @@include('components/Benefits-Card.html', {
+                  'Style': '',
+                  'Icon': 'Referral-Program',
+                  'Title': 'Referral Program',
+                  'Text': 'Get rewarded with unbeatable deals and perks.',
+                  })
+                </div>
+                <div class="swiper-slide">
+                  @@include('components/Benefits-Card.html', {
+                  'Style': '',
+                  'Icon': 'Referral-Program',
+                  'Title': 'Referral Program',
+                  'Text': 'Get rewarded with unbeatable deals and perks.',
+                  })
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="row mt-8">
+              <div class="col-span-12 w-full flex justify-center">
                 @@include('components/Link.html', {
-                'style': 'mt-3',
+                'style': '',
                 'url': 'sign-up.html',
                 'title': 'Sign Up',
                 })
