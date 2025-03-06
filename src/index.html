@@ -15,12 +15,12 @@
       <div class="row gap-x-5 lg:gap-x-0 lg:gap-y-8">
         <div class="col-span-6 lg:col-span-12 flex items-center">
           <div class="max-w-[514px] lg:max-w-full relative">
-            <h1 class="text-h1 font-medium text-TitleText tracking-[-1.44px]">Sign, Send & Save Time - <span
+            <h1 class="text-h1 lg:text-h4 font-medium text-TitleText tracking-[-1.44px]">Sign, Send & Save Time - <span
               class="text-Blue font-normal">For Free!</span></h1>
             <span class="border-b-4 border-Yellow w-14 rounded block mt-5"></span>
-            <div class="mt-5 flex items-center gap-x-4">
-              <p class="text-Top3">The Ultimate Online Platform for Fast, Secure, & Legally Binding eSignatures!</p>
-              <div class="relative">
+            <div class="mt-5 flex items-center gap-x-4 relative">
+              <p class="text-Top3 lg:text-base">The Ultimate Online Platform for Fast, Secure, & Legally Binding eSignatures!</p>
+              <div class="relative lg:absolute lg:-bottom-[50px] right-0">
                 <svg class="absolute -top-[9px] -left-[14px]" xmlns="http://www.w3.org/2000/svg" width="12" height="13"
                      viewBox="0 0 12 13" fill="none">
                   <path
@@ -445,8 +445,8 @@
   </section>
   <section class="section bg-white">
     <div class="container">
-      <div class="row gap-x-5">
-        <div class="col-span-6">
+      <div class="row gap-x-5 lg:gap-x-0">
+        <div class="col-span-6 lg:hidden">
           <div class="flex flex-col">
             <div class="flex items-center justify-center w-full rounded-2xl overflow-hidden border border-BlueStroke">
               <img class="w-full object-cover" src="img/Image4.png" alt="">
@@ -481,8 +481,8 @@
             </div>
           </div>
         </div>
-        <div class="col-span-6">
-          <div class="pl-[36px] flex flex-col">
+        <div class="col-span-6 lg:col-span-12">
+          <div class="pl-[36px] lg:pl-0 flex flex-col">
             @@include('components/Title-block.html', {
             'Style1': '',
             'Title1': 'Reliable and Secure Mailing Services <br>',
@@ -491,13 +491,48 @@
             'StyleLine': 'text-left',
             })
             <div class="mt-5">
-              <p class="text-BodyText">At ActiveDoc, we make it easy to send important physical mail without the hassle. Whether you need to send <span class="font-medium text-TitleText">legal documents, invoices, contracts, notices, or personalized correspondence</span>, we offer First-Class Mail and Certified Mail services across the USA to ensure your letters are delivered securely and on time.
+              <p class="text-BodyText">At ActiveDoc, we make it easy to send important physical mail without the hassle. Whether you need to send <span class="font-medium text-TitleText">legal documents, invoices, contracts, notices, or personalized correspondence</span>, we offer First-Class Mail and Certified Mail services across the USA to ensure your letters are delivered securely and on time.</p>
                 <br>
+                <p>We also offer high-volume mailing services for businesses, professionals, and organizations that need to communicate effectively with their clients, customers, or partners.</p>
                 <br>
-                We also offer high-volume mailing services for businesses, professionals, and organizations that need to communicate effectively with their clients, customers, or partners.
-                <br>
-                <br>
-                With ActiveDoc, you don’t need to spend time printing, folding, stuffing envelopes, and mailing—we handle it all for you with precision and reliability. No more trips to the post office! <span class="font-medium text-TitleText">Contact us today for a customized quote and let us simplify your mailing process!</span></p>
+              <div class="flex flex-col minlg:hidden mb-6">
+                <div class="flex items-center justify-center w-full rounded-2xl overflow-hidden border border-BlueStroke">
+                  <img class="w-full object-cover sm:h-[250px]" src="img/Image4.png" alt="">
+                </div>
+                <div class="row gap-x-5 mt-6 md:gap-x-0 md:gap-y-5">
+                  <div class="col-span-6 md:col-span-12">
+                    <div class="flex items-start gap-x-3">
+                      <div class="flex items-center gap-x-2">
+                        <span class="flex items-center justify-center w-9 h-9 bg-Blue rounded">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M12.6667 0.888916H3.33333C2.4496 0.889943 1.60237 1.23082 0.97748 1.83678C0.352588 2.44273 0.00105857 3.26429 0 4.12124L0 11.8788C0.00105857 12.7358 0.352588 13.5573 0.97748 14.1633C1.60237 14.7692 2.4496 15.1101 3.33333 15.1111H12.6667C13.5504 15.1101 14.3976 14.7692 15.0225 14.1633C15.6474 13.5573 15.9989 12.7358 16 11.8788V4.12124C15.9989 3.26429 15.6474 2.44273 15.0225 1.83678C14.3976 1.23082 13.5504 0.889943 12.6667 0.888916ZM3.33333 2.18185H12.6667C13.0659 2.18261 13.4557 2.29919 13.786 2.51659C14.1163 2.73399 14.3719 3.04226 14.52 3.40172L9.41467 8.353C9.03895 8.71587 8.53028 8.9196 8 8.9196C7.46972 8.9196 6.96105 8.71587 6.58533 8.353L1.48 3.40172C1.6281 3.04226 1.88374 2.73399 2.21403 2.51659C2.54432 2.29919 2.93414 2.18261 3.33333 2.18185ZM12.6667 13.8182H3.33333C2.8029 13.8182 2.29419 13.6139 1.91912 13.2502C1.54405 12.8865 1.33333 12.3932 1.33333 11.8788V5.09094L5.64267 9.2671C6.26842 9.87235 7.11617 10.2123 8 10.2123C8.88383 10.2123 9.73158 9.87235 10.3573 9.2671L14.6667 5.09094V11.8788C14.6667 12.3932 14.456 12.8865 14.0809 13.2502C13.7058 13.6139 13.1971 13.8182 12.6667 13.8182Z" fill="white"/>
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="flex flex-col gap-y-2">
+                        <span class="text-TitleText font-semibold text-body">First-Class Mail</span>
+                        <p class="text-body2 text-BodyText">First-Class Mail is a fast, reliable, and cost-effective option for sending any important letters or correspondence nationwide fast.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-span-6 md:col-span-12">
+                    <div class="flex items-start gap-x-3">
+                      <div class="flex items-center gap-x-2">
+                        <span class="flex items-center justify-center w-9 h-9 bg-Yellow rounded">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M12.6667 0.888916H3.33333C2.4496 0.889943 1.60237 1.23082 0.97748 1.83678C0.352588 2.44273 0.00105857 3.26429 0 4.12124L0 11.8788C0.00105857 12.7358 0.352588 13.5573 0.97748 14.1633C1.60237 14.7692 2.4496 15.1101 3.33333 15.1111H12.6667C13.5504 15.1101 14.3976 14.7692 15.0225 14.1633C15.6474 13.5573 15.9989 12.7358 16 11.8788V4.12124C15.9989 3.26429 15.6474 2.44273 15.0225 1.83678C14.3976 1.23082 13.5504 0.889943 12.6667 0.888916ZM3.33333 2.18185H12.6667C13.0659 2.18261 13.4557 2.29919 13.786 2.51659C14.1163 2.73399 14.3719 3.04226 14.52 3.40172L9.41467 8.353C9.03895 8.71587 8.53028 8.9196 8 8.9196C7.46972 8.9196 6.96105 8.71587 6.58533 8.353L1.48 3.40172C1.6281 3.04226 1.88374 2.73399 2.21403 2.51659C2.54432 2.29919 2.93414 2.18261 3.33333 2.18185ZM12.6667 13.8182H3.33333C2.8029 13.8182 2.29419 13.6139 1.91912 13.2502C1.54405 12.8865 1.33333 12.3932 1.33333 11.8788V5.09094L5.64267 9.2671C6.26842 9.87235 7.11617 10.2123 8 10.2123C8.88383 10.2123 9.73158 9.87235 10.3573 9.2671L14.6667 5.09094V11.8788C14.6667 12.3932 14.456 12.8865 14.0809 13.2502C13.7058 13.6139 13.1971 13.8182 12.6667 13.8182Z" fill="white"/>
+                          </svg>
+                        </span>
+                      </div>
+                     <div class="flex flex-col gap-y-2">
+                       <span class="text-TitleText font-semibold text-body">Certified Mail</span>
+                       <p class="text-body2 text-BodyText">Provides tracking, proof of mailing, and delivery confirmation—ideal for legal documents, compliance letters, and sensitive materials.</p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p>With ActiveDoc, you don’t need to spend time printing, folding, stuffing envelopes, and mailing—we handle it all for you with precision and reliability. No more trips to the post office! <span class="font-medium text-TitleText">Contact us today for a customized quote and let us simplify your mailing process!</span></p>
             </div>
           </div>
         </div>
