@@ -2156,11 +2156,11 @@ html {
 .z-10{
   z-index: 10;
 }
-.z-\[10000\]{
-  z-index: 10000;
-}
 .z-50{
   z-index: 50;
+}
+.z-\[10000\]{
+  z-index: 10000;
 }
 .col-span-12{
   grid-column: span 12 / span 12;
@@ -3210,10 +3210,13 @@ p{
 }
 
 .text-block a{
-  font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(0 87 149 / var(--tw-text-opacity, 1));
   text-decoration-line: underline;
+}
+.text-block ul {
+  list-style: disc;
+  padding-left: 16px;
 }
 
 .Referral-Program {
@@ -4432,14 +4435,11 @@ p{
   .md\:max-w-\[305px\]{
     max-width: 305px;
   }
-  .md\:max-w-full{
-    max-width: 100%;
-  }
-  .md\:max-w-\[300px\]{
-    max-width: 300px;
-  }
   .md\:max-w-\[320px\]{
     max-width: 320px;
+  }
+  .md\:max-w-full{
+    max-width: 100%;
   }
   .md\:flex-col{
     flex-direction: column;

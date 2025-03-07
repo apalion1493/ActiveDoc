@@ -29,6 +29,11 @@ p {
 .text-block {
 
   a {
-    @apply font-bold underline text-Blue
+    @apply underline text-Blue
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 16px;
   }
 }

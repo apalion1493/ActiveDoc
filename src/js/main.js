@@ -53,10 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const wrapperForm = document.getElementById("wrapperForm");
     const form = document.getElementById("contactForm");
     const thankYouMessage = document.getElementById("thankYouMessage");
-    const returnForm = document.getElementById("returnForm");
+    const resetButton = document.getElementById("resetFormButton");
 
     form.addEventListener("submit", function (event) {
-        event.preventDefault(); // Отключаем стандартную отправку формы
+        event.preventDefault();
         const formData = new FormData(form);
         axios.post("http://localhost:3000/send-form", formData)
           .then(response => {
@@ -69,14 +69,14 @@ document.addEventListener("DOMContentLoaded", function () {
               console.error("Ошибка:", error);
           });
     });
-    returnForm?.addEventListener("onclick", function () {
-        wrapperForm.classList.remove("hidden");
+    resetButton.addEventListener("click", function () {
         thankYouMessage.classList.add("hidden");
-    })
+        wrapperForm.classList.remove("hidden");
+    });
 });
 
 document.getElementById('dateInput')?.addEventListener('input', function (e) {
-    let value = e.target.value.replace(/\D/g, ''); // Удаляем всё, кроме цифр
+    let value = e.target.value.replace(/\D/g, '');
     if (value.length > 2) value = value.slice(0, 2) + '/' + value.slice(2);
     if (value.length > 5) value = value.slice(0, 5) + '/' + value.slice(5);
     e.target.value = value;
