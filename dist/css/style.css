@@ -4435,6 +4435,12 @@ p{
   .md\:max-w-full{
     max-width: 100%;
   }
+  .md\:max-w-\[300px\]{
+    max-width: 300px;
+  }
+  .md\:max-w-\[320px\]{
+    max-width: 320px;
+  }
   .md\:flex-col{
     flex-direction: column;
   }
